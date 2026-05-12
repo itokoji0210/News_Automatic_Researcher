@@ -14,6 +14,7 @@ import {
 
 const PORT = Number(process.env.PORT || 3000);
 const PUBLIC_DIR = resolve("public");
+const DATA_PUBLIC_DIR = resolve("data");
 
 const MIME_TYPES = {
   ".html": "text/html; charset=utf-8",
@@ -109,13 +110,17 @@ async function route(request, response) {
     }
 
     const requested = url.pathname === "/" ? "/index.html" : url.pathname;
-    const filePath = resolve(join(PUBLIC_DIR, requested));
-    if (!filePath.startsWith(PUBLIC_DIR)) {
+    const baseDir = requested.startsWith("/data/") ? DATA_PUBLIC_DIR : PUBLIC_DIR;
+    const relativePath = requested.startsWith("/data/")
+      ? requested.replace(/^\/data\//, "/")
+      : requested;
+    const filePath = resolve(join(baseDir, relativePath));
+    if (!filePath.startsWith(baseDir)) {
       sendJson(response, 403, { error: "Forbidden" });
       return;
     }
 
-    await mkdir(PUBLIC_DIR, { recursive: true });
+    await mkdir(baseDir, { recursive: true });
     await readFile(filePath);
     response.writeHead(200, { "content-type": MIME_TYPES[extname(filePath)] || "application/octet-stream" });
     createReadStream(filePath).pipe(response);

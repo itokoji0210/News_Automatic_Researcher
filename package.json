@@ -6,6 +6,7 @@
   "scripts": {
     "analyze:trends": "node scripts/analyze-trends.js",
     "score:topics": "node scripts/score-topics.js",
+    "generate:codex-prompt": "node scripts/generate-codex-prompt.js",
     "build:pages": "node scripts/build-pages.js",
     "start": "node server.js"
   },

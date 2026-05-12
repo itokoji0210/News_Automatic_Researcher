@@ -16,6 +16,17 @@
     </header>
 
     <main class="layout">
+      <section class="panel wide promptPanel">
+        <div class="sectionHead">
+          <div>
+            <h2>Codexに貼る取材精査プロンプト</h2>
+            <p id="promptStatus" class="muted">生成待ち</p>
+          </div>
+          <button id="copyPromptButton" type="button">プロンプトをコピー</button>
+        </div>
+        <textarea id="codexPrompt" readonly spellcheck="false"></textarea>
+      </section>
+
       <section class="panel wide">
         <div class="sectionHead">
           <h2>今日のニューストレンド</h2>

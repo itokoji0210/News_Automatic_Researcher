@@ -18,6 +18,8 @@ async function main() {
   await copy("data/trends.json", "docs/data/trends.json");
   await copy("data/scored-topics.json", "docs/data/scored-topics.json");
   await copy("data/feedback.json", "docs/data/feedback.json");
+  await copy("data/codex-prompt.md", "docs/data/codex-prompt.md");
+  await copy("data/codex-prompt.json", "docs/data/codex-prompt.json");
 
   const rootIndex = await readFile(path.join(docs, "index.html"), "utf8");
   await writeFile(path.join(root, "index.html"), rootIndex, "utf8");

@@ -1,6 +1,7 @@
 # ニューストレンド写真ネタ
 
 RSSやURL付きSNSシグナルから、写真・動画・ドローンで追う価値がある時事ネタ候補を作ります。候補は必ず取得記事やSNS投稿のURLに紐づくため、根拠URLのないネタは表示されません。
+RSSや記事ページのOG画像から画像サムネイルも取得し、候補カードに表示します。
 
 ## GitHubだけで公開する
 
@@ -33,6 +34,14 @@ GitHub Pages用の静的ファイルを作る場合:
 npm run build:pages
 ```
 
+Codexに貼る取材精査プロンプトだけ作り直す場合:
+
+```bash
+npm run generate:codex-prompt
+```
+
+GitHub Actionsでは、トレンド取得、スコア計算、Codex用プロンプト生成、Pages公開まで自動で実行します。公開ページ上部の「プロンプトをコピー」から、その日の候補を含んだプロンプトをそのままCodexへ貼れます。
+
 ## データ
 
 - `data/trends.json`: 収集した記事、頻出語、急上昇ワード、根拠URL付き写真ネタ
@@ -50,6 +59,7 @@ npm run build:pages
       "title": "駅前の巨大行列が話題",
       "summary": "投稿や関連リンクの概要",
       "url": "https://example.com/post/123",
+      "thumbnailUrl": "https://example.com/image.jpg",
       "publishedAt": "2026-05-13T09:00:00+09:00"
     }
   ]

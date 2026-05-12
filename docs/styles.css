@@ -109,6 +109,23 @@ button:hover {
   padding: 18px;
 }
 
+.promptPanel {
+  background: #fbfcfb;
+}
+
+#codexPrompt {
+  width: 100%;
+  min-height: 320px;
+  max-height: 520px;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  color: #20231f;
+  background: #fff;
+  font: 13px/1.65 Consolas, "Yu Gothic", Meiryo, monospace;
+}
+
 .wide {
   grid-column: 1 / -1;
 }
@@ -139,6 +156,36 @@ button:hover {
 .newsItem,
 .miniItem {
   padding: 12px;
+}
+
+.thumb,
+.thumbPlaceholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  background: #eef1ed;
+}
+
+.thumbPlaceholder {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.miniWithThumb {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.miniWithThumb .thumb,
+.miniWithThumb .thumbPlaceholder {
+  margin-bottom: 0;
 }
 
 .topicCard {
@@ -247,5 +294,9 @@ button:hover {
 
   .actions {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .miniWithThumb {
+    grid-template-columns: 1fr;
   }
 }

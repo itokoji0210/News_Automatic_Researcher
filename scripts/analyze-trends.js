@@ -9,36 +9,12 @@ import {
 } from "./trend-utils.js";
 
 const DEFAULT_SOURCES = [
-  {
-    name: "NHK News",
-    type: "major",
-    url: "https://www3.nhk.or.jp/rss/news/cat0.xml"
-  },
-  {
-    name: "Yahoo!ニュース 地域",
-    type: "local",
-    url: "https://news.yahoo.co.jp/rss/categories/local.xml"
-  },
-  {
-    name: "PR TIMES",
-    type: "pr",
-    url: "https://prtimes.jp/main/rss"
-  },
-  {
-    name: "@Press",
-    type: "pr",
-    url: "https://www.atpress.ne.jp/rss"
-  },
-  {
-    name: "みんなの経済新聞ネットワーク",
-    type: "local-business",
-    url: "https://minkei.net/rss.xml"
-  },
-  {
-    name: "官公庁 新着",
-    type: "government",
-    url: "https://www.e-gov.go.jp/news/rss.xml"
-  },
+  { name: "NHK News", type: "major", url: "https://www3.nhk.or.jp/rss/news/cat0.xml" },
+  { name: "Yahoo!ニュース 地域", type: "local", url: "https://news.yahoo.co.jp/rss/categories/local.xml" },
+  { name: "PR TIMES", type: "pr", url: "https://prtimes.jp/main/rss" },
+  { name: "@Press", type: "pr", url: "https://www.atpress.ne.jp/rss" },
+  { name: "みんなの経済新聞ネットワーク", type: "local-business", url: "https://minkei.net/rss.xml" },
+  { name: "官公庁 新着", type: "government", url: "https://www.e-gov.go.jp/news/rss.xml" },
   {
     name: "Google News 災害",
     type: "news-search",
@@ -52,149 +28,40 @@ const DEFAULT_SOURCES = [
 ];
 
 const STOP_WORDS = new Set([
-  "こと",
-  "これ",
-  "ため",
-  "よう",
-  "さん",
-  "する",
-  "した",
-  "して",
-  "から",
-  "まで",
-  "など",
-  "より",
-  "ニュース",
-  "発表",
-  "開催",
-  "開始",
-  "公開",
-  "今回",
-  "日本",
-  "東京",
-  "一覧",
-  "写真",
-  "動画"
+  "こと", "これ", "ため", "よう", "さん", "する", "した", "して", "から", "まで",
+  "など", "より", "ニュース", "発表", "開催", "開始", "公開", "今回", "日本",
+  "東京", "一覧", "写真", "動画"
 ]);
 
 const REGION_WORDS = [
-  "北海道",
-  "青森",
-  "岩手",
-  "宮城",
-  "秋田",
-  "山形",
-  "福島",
-  "茨城",
-  "栃木",
-  "群馬",
-  "埼玉",
-  "千葉",
-  "東京",
-  "神奈川",
-  "新潟",
-  "富山",
-  "石川",
-  "福井",
-  "山梨",
-  "長野",
-  "岐阜",
-  "静岡",
-  "愛知",
-  "三重",
-  "滋賀",
-  "京都",
-  "大阪",
-  "兵庫",
-  "奈良",
-  "和歌山",
-  "鳥取",
-  "島根",
-  "岡山",
-  "広島",
-  "山口",
-  "徳島",
-  "香川",
-  "愛媛",
-  "高知",
-  "福岡",
-  "佐賀",
-  "長崎",
-  "熊本",
-  "大分",
-  "宮崎",
-  "鹿児島",
-  "沖縄"
+  "北海道", "青森", "岩手", "宮城", "秋田", "山形", "福島", "茨城", "栃木", "群馬",
+  "埼玉", "千葉", "東京", "神奈川", "新潟", "富山", "石川", "福井", "山梨", "長野",
+  "岐阜", "静岡", "愛知", "三重", "滋賀", "京都", "大阪", "兵庫", "奈良", "和歌山",
+  "鳥取", "島根", "岡山", "広島", "山口", "徳島", "香川", "愛媛", "高知", "福岡",
+  "佐賀", "長崎", "熊本", "大分", "宮崎", "鹿児島", "沖縄"
 ];
 
 const SEASON_WORDS = [
-  "猛暑",
-  "酷暑",
-  "梅雨",
-  "台風",
-  "紅葉",
-  "桜",
-  "花見",
-  "花の見頃",
-  "田植え",
-  "稲刈り",
-  "雪",
-  "初雪",
-  "海開き",
-  "祭り"
+  "猛暑", "酷暑", "梅雨", "台風", "紅葉", "桜", "花見", "花の見頃", "田植え",
+  "稲刈り", "雪", "初雪", "海開き", "祭り"
 ];
 
 const DISASTER_WORDS = [
-  "地震",
-  "津波",
-  "豪雨",
-  "洪水",
-  "浸水",
-  "土砂災害",
-  "山火事",
-  "火災",
-  "災害復旧",
-  "復旧",
-  "断水",
-  "水不足",
-  "渇水",
-  "避難"
+  "地震", "津波", "豪雨", "洪水", "浸水", "土砂災害", "山火事", "火災",
+  "災害復旧", "復旧", "断水", "水不足", "渇水", "避難"
 ];
 
 const SOCIAL_WORDS = [
-  "物価高",
-  "インバウンド",
-  "観光公害",
-  "閉店",
-  "再開発",
-  "空き家",
-  "人手不足",
-  "少子化",
-  "高齢化",
-  "文化財保存",
-  "巨大行列",
-  "クマ",
-  "鳥獣被害"
+  "物価高", "インバウンド", "観光公害", "閉店", "再開発", "空き家", "人手不足",
+  "少子化", "高齢化", "文化財保存", "巨大行列", "クマ", "鳥獣被害"
 ];
 
 const PHOTO_PRIORITY_WORDS = [
   ...SEASON_WORDS,
   ...DISASTER_WORDS,
   ...SOCIAL_WORDS,
-  "ダム",
-  "水田",
-  "給水車",
-  "商店街",
-  "駅前",
-  "観光地",
-  "港",
-  "河川",
-  "棚田",
-  "文化財",
-  "行列",
-  "跡地",
-  "工事",
-  "ドローン"
+  "ダム", "水田", "給水車", "商店街", "駅前", "観光地", "港", "河川",
+  "棚田", "文化財", "行列", "跡地", "工事", "ドローン"
 ];
 
 function getSources() {
@@ -205,6 +72,24 @@ function getSources() {
     return Array.isArray(parsed) && parsed.length ? parsed : DEFAULT_SOURCES;
   } catch {
     return DEFAULT_SOURCES;
+  }
+}
+
+function decodeEntities(value = "") {
+  return value
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, "\"")
+    .replace(/&#39;/g, "'");
+}
+
+function absoluteUrl(url, baseUrl) {
+  if (!url) return "";
+  try {
+    return new URL(decodeEntities(url), baseUrl).href;
+  } catch {
+    return "";
   }
 }
 
@@ -219,6 +104,56 @@ function tagValue(block, tag) {
   return match ? normalizeText(match[1].replace(/<!\\[CDATA\\[|\\]\\]>/g, "")) : "";
 }
 
+function attrValue(block, tagPattern, attr) {
+  const tag = block.match(new RegExp(`<${tagPattern}\\b[^>]*>`, "i"))?.[0] || "";
+  return tag.match(new RegExp(`${attr}=["']([^"']+)["']`, "i"))?.[1] || "";
+}
+
+function extractFeedImage(block, baseUrl) {
+  const candidates = [
+    attrValue(block, "media:thumbnail", "url"),
+    attrValue(block, "media:content", "url"),
+    attrValue(block, "enclosure", "url"),
+    tagValue(block, "image"),
+    tagValue(block, "url"),
+    block.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1]
+  ];
+  return candidates.map((url) => absoluteUrl(url, baseUrl)).find(Boolean) || "";
+}
+
+async function fetchOgImage(url) {
+  if (!url || url.includes("news.google.com/")) return "";
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 4500);
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: { "user-agent": "press-sns-trend-analyzer/1.0" }
+    });
+    if (!response.ok) return "";
+    const html = await response.text();
+    const og =
+      html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)?.[1] ||
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)?.[1] ||
+      html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i)?.[1];
+    return absoluteUrl(og, url);
+  } catch {
+    return "";
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function addMissingThumbnails(articles) {
+  const targets = articles.filter((article) => !article.thumbnailUrl).slice(0, 80);
+  await Promise.allSettled(
+    targets.map(async (article) => {
+      article.thumbnailUrl = await fetchOgImage(article.url);
+    })
+  );
+  return articles;
+}
+
 function parseFeed(xml, source) {
   const itemBlocks = extractTagBlocks(xml, "item");
   const entryBlocks = extractTagBlocks(xml, "entry");
@@ -227,7 +162,7 @@ function parseFeed(xml, source) {
   return blocks
     .map((block) => {
       const rawLink = tagValue(block, "link");
-      const href = block.match(/<link[^>]+href=["']([^"']+)["']/i)?.[1];
+      const href = attrValue(block, "link", "href");
       const url = href || rawLink;
       const title = tagValue(block, "title");
       const summary =
@@ -239,6 +174,7 @@ function parseFeed(xml, source) {
         title,
         summary,
         url,
+        thumbnailUrl: extractFeedImage(block, source.url),
         publishedAt: publishedAt ? new Date(publishedAt).toISOString() : null
       };
     })
@@ -248,9 +184,7 @@ function parseFeed(xml, source) {
 async function fetchSource(source) {
   try {
     const response = await fetch(source.url, {
-      headers: {
-        "user-agent": "press-sns-trend-analyzer/1.0"
-      }
+      headers: { "user-agent": "press-sns-trend-analyzer/1.0" }
     });
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     const xml = await response.text();
@@ -269,6 +203,7 @@ async function readSocialSignals() {
       title: normalizeText(item.title || item.text || ""),
       summary: normalizeText(item.summary || ""),
       url: item.url,
+      thumbnailUrl: item.thumbnailUrl || item.imageUrl || "",
       publishedAt: item.publishedAt ? new Date(item.publishedAt).toISOString() : null
     }))
     .filter((item) => item.title && item.url);
@@ -310,48 +245,26 @@ function photoScore(word, count, articles) {
   const hasLocal = articles.some((item) =>
     ["local", "local-business", "government"].includes(item.sourceType)
   );
-  return count * 4 + sourceDiversity * 3 + categoryBoost + (hasLocal ? 4 : 0);
+  const imageBoost = articles.some((item) => item.thumbnailUrl) ? 5 : 0;
+  return count * 4 + sourceDiversity * 3 + categoryBoost + imageBoost + (hasLocal ? 4 : 0);
 }
 
 function buildPhotoAngles(word, article) {
   const text = `${article.title} ${article.summary}`;
   const angles = [];
 
-  if (/水不足|渇水|断水|ダム|水田/.test(text)) {
-    angles.push("水位・農地・給水対応など、記事で触れられた影響が見える現場");
-  }
-  if (/クマ|鳥獣被害/.test(text)) {
-    angles.push("注意喚起の掲示、出没地点周辺、住民生活への影響");
-  }
-  if (/猛暑|酷暑|熱中症/.test(text)) {
-    angles.push("暑さ対策、屋外作業、街なかの温度表示や避暑行動");
-  }
-  if (/田植え|稲|農/.test(text)) {
-    angles.push("田植え、用水、農作業、天候影響が分かる風景");
-  }
-  if (/インバウンド|観光|行列|観光公害/.test(text)) {
-    angles.push("観光地の混雑、行列、案内表示、地域側の対応");
-  }
-  if (/物価高|値上げ|価格/.test(text)) {
-    angles.push("価格表示、商店街、生活者や事業者への影響");
-  }
-  if (/花|見頃|桜|紅葉/.test(text)) {
-    angles.push("見頃の花、来訪者、管理する人、周辺交通や混雑");
-  }
-  if (/山火事|火災|災害|復旧|避難|土砂|洪水|浸水/.test(text)) {
-    angles.push("被害箇所、復旧作業、避難情報、支援や交通影響");
-  }
-  if (/閉店|再開発|跡地|工事/.test(text)) {
-    angles.push("店舗外観、駅前や商店街の変化、工事・解体・告知掲示");
-  }
-  if (/文化財|保存/.test(text)) {
-    angles.push("文化財の外観、保存作業、地域の利用風景");
-  }
+  if (/水不足|渇水|断水|ダム|水田/.test(text)) angles.push("水位・農地・給水対応など、影響が見える現場");
+  if (/クマ|鳥獣被害/.test(text)) angles.push("注意喚起の掲示、出没地点周辺、住民生活への影響");
+  if (/猛暑|酷暑|熱中症/.test(text)) angles.push("暑さ対策、屋外作業、街なかの温度表示や避暑行動");
+  if (/田植え|稲|農/.test(text)) angles.push("田植え、用水、農作業、天候影響が分かる風景");
+  if (/インバウンド|観光|行列|観光公害/.test(text)) angles.push("観光地の混雑、行列、案内表示、地域側の対応");
+  if (/物価高|値上げ|価格/.test(text)) angles.push("価格表示、商店街、生活者や事業者への影響");
+  if (/花|見頃|桜|紅葉/.test(text)) angles.push("見頃の花、来訪者、管理する人、周辺交通や混雑");
+  if (/山火事|火災|災害|復旧|避難|土砂|洪水|浸水/.test(text)) angles.push("被害箇所、復旧作業、避難情報、支援や交通影響");
+  if (/閉店|再開発|跡地|工事/.test(text)) angles.push("店舗外観、駅前や商店街の変化、工事・解体・告知掲示");
+  if (/文化財|保存/.test(text)) angles.push("文化財の外観、保存作業、地域の利用風景");
 
-  if (!angles.length) {
-    angles.push(`「${word}」が記事中で示す現場、告知、関係者の動き`);
-  }
-
+  if (!angles.length) angles.push(`「${word}」が記事中で示す現場、告知、関係者の動き`);
   return [...new Set(angles)].slice(0, 3);
 }
 
@@ -360,14 +273,15 @@ function makeTopics(words, articleMatches) {
   for (const word of words) {
     const articles = articleMatches.get(word.word) || [];
     for (const article of articles.slice(0, 4)) {
-      const title = `「${word.word}」を写真で追う: ${article.title}`;
       topics.push({
         id: stableId(`${word.word}|${article.url}`),
         trendWord: word.word,
-        title,
+        title: `「${word.word}」を写真で追う: ${article.title}`,
         photoCandidates: buildPhotoAngles(word.word, article),
         evidenceUrl: article.url,
         evidenceTitle: article.title,
+        thumbnailUrl: article.thumbnailUrl || "",
+        imageUrl: article.thumbnailUrl || "",
         source: article.source,
         sourceType: article.sourceType,
         publishedAt: article.publishedAt,
@@ -397,7 +311,9 @@ export async function analyzeTrends() {
   const sources = getSources();
   const results = await Promise.all(sources.map(fetchSource));
   const socialSignals = await readSocialSignals();
-  const articles = [...results.flatMap((result) => result.items), ...socialSignals].slice(0, 600);
+  const articles = await addMissingThumbnails(
+    [...results.flatMap((result) => result.items), ...socialSignals].slice(0, 600)
+  );
   const previousCounts = await readPreviousWords();
   const counts = new Map();
   const articleMatches = new Map();

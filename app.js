@@ -8,6 +8,9 @@ const els = {
   watchLater: document.querySelector("#watchLater"),
   hiddenOrCovered: document.querySelector("#hiddenOrCovered"),
   analyzeButton: document.querySelector("#analyzeButton"),
+  codexPrompt: document.querySelector("#codexPrompt"),
+  copyPromptButton: document.querySelector("#copyPromptButton"),
+  promptStatus: document.querySelector("#promptStatus"),
   template: document.querySelector("#topicTemplate")
 };
 
@@ -36,11 +39,26 @@ function escapeHtml(value = "") {
     .replaceAll("'", "&#39;");
 }
 
+function imageHtml(url, alt = "") {
+  if (!url) return `<div class="thumbPlaceholder">画像なし</div>`;
+  return `<img class="thumb" src="${escapeHtml(url)}" alt="${escapeHtml(alt)}" loading="lazy" referrerpolicy="no-referrer" />`;
+}
+
 async function fetchJson(url, fallback = {}) {
   try {
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) return fallback;
     return await response.json();
+  } catch {
+    return fallback;
+  }
+}
+
+async function fetchText(url, fallback = "") {
+  try {
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) return fallback;
+    return await response.text();
   } catch {
     return fallback;
   }
@@ -84,18 +102,13 @@ function applyLocalFeedback(scored) {
       requiresVerification: action === "verify" || topic.requiresVerification
     };
 
-    if (action === "hidden" || action === "covered") {
-      hiddenOrCovered.push(enriched);
-    } else if (action === "later") {
+    if (action === "hidden" || action === "covered") hiddenOrCovered.push(enriched);
+    else if (action === "later") {
       watchLater.push(enriched);
       visible.push(enriched);
-    } else if (action === "weak") {
-      visible.push({ ...enriched, score: (enriched.score || 0) - 20 });
-    } else if (action === "usable") {
-      visible.unshift({ ...enriched, score: (enriched.score || 0) + 20 });
-    } else {
-      visible.push(enriched);
-    }
+    } else if (action === "weak") visible.push({ ...enriched, score: (enriched.score || 0) - 20 });
+    else if (action === "usable") visible.unshift({ ...enriched, score: (enriched.score || 0) + 20 });
+    else visible.push(enriched);
   }
 
   return {
@@ -118,6 +131,7 @@ function renderNews(items = []) {
     const article = document.createElement("article");
     article.className = "newsItem";
     article.innerHTML = `
+      ${imageHtml(item.thumbnailUrl || item.imageUrl, item.title)}
       <h3>${escapeHtml(item.title)}</h3>
       <p class="muted">${escapeHtml(item.source || "")}</p>
       <a class="evidence" href="${item.url}" target="_blank" rel="noreferrer">根拠URL</a>
@@ -141,6 +155,15 @@ function renderRising(words = []) {
   }
 }
 
+async function renderCodexPrompt() {
+  const prompt = await fetchText("data/codex-prompt.md", "");
+  els.codexPrompt.value =
+    prompt || "まだCodex用プロンプトが生成されていません。GitHub Actionsを実行してください。";
+  els.promptStatus.textContent = prompt
+    ? "この欄をコピーしてCodexに貼ると、上位候補の取材設計書を作れます。"
+    : "生成待ち";
+}
+
 function renderTopicList(target, topics = [], compact = false) {
   target.innerHTML = "";
   const grounded = topics.filter((topic) => topic.evidenceUrl);
@@ -156,11 +179,14 @@ function renderTopicList(target, topics = [], compact = false) {
 
 function renderMiniTopic(topic) {
   const article = document.createElement("article");
-  article.className = "miniItem";
+  article.className = "miniItem miniWithThumb";
   article.innerHTML = `
-    <h3>${escapeHtml(topic.title)}</h3>
-    <p class="muted">${escapeHtml(topic.trendWord)} / ${escapeHtml(topic.source || "")}</p>
-    <a class="evidence" href="${topic.evidenceUrl}" target="_blank" rel="noreferrer">根拠URL</a>
+    ${imageHtml(topic.thumbnailUrl || topic.imageUrl, topic.title)}
+    <div>
+      <h3>${escapeHtml(topic.title)}</h3>
+      <p class="muted">${escapeHtml(topic.trendWord)} / ${escapeHtml(topic.source || "")}</p>
+      <a class="evidence" href="${topic.evidenceUrl}" target="_blank" rel="noreferrer">根拠URL</a>
+    </div>
   `;
   return article;
 }
@@ -168,6 +194,7 @@ function renderMiniTopic(topic) {
 function renderTopic(topic) {
   const node = els.template.content.firstElementChild.cloneNode(true);
   node.dataset.topicId = topic.id;
+  node.insertAdjacentHTML("afterbegin", imageHtml(topic.thumbnailUrl || topic.imageUrl, topic.title));
   node.querySelector(".word").textContent = topic.trendWord;
   node.querySelector(".source").textContent = topic.source || "source";
   node.querySelector("h3").textContent = topic.title;
@@ -189,6 +216,7 @@ function renderTopic(topic) {
   for (const label of [
     ...(topic.categories || []),
     ...(topic.regions || []),
+    topic.thumbnailUrl || topic.imageUrl ? "画像あり" : "",
     topic.droneSuitable ? "ドローン向き" : "",
     topic.flowerTopic ? "花ネタ" : "",
     topic.requiresVerification ? "確認待ち" : ""
@@ -207,9 +235,7 @@ function renderTopic(topic) {
 }
 
 function renderLearned(scored) {
-  const learned = (scored.topics || [])
-    .filter((topic) => topic.userStatus === "usable")
-    .slice(0, 8);
+  const learned = (scored.topics || []).filter((topic) => topic.userStatus === "usable").slice(0, 8);
   renderTopicList(els.learnedTopics, learned, true);
 }
 
@@ -232,6 +258,21 @@ async function submitFeedback(topicId, action) {
     return;
   }
   await load();
+}
+
+async function copyPrompt() {
+  const text = els.codexPrompt.value.trim();
+  if (!text) return;
+  try {
+    await navigator.clipboard.writeText(text);
+    els.copyPromptButton.textContent = "コピー済み";
+    setTimeout(() => {
+      els.copyPromptButton.textContent = "プロンプトをコピー";
+    }, 1400);
+  } catch {
+    els.codexPrompt.focus();
+    els.codexPrompt.select();
+  }
 }
 
 async function runAnalyze() {
@@ -264,10 +305,7 @@ async function loadStaticData() {
   staticMode = true;
   const trends = await fetchJson("data/trends.json", {});
   const scoredRaw = await fetchJson("data/scored-topics.json", {});
-  return {
-    trends,
-    scored: applyLocalFeedback(scoredRaw)
-  };
+  return { trends, scored: applyLocalFeedback(scoredRaw) };
 }
 
 async function load() {
@@ -284,7 +322,6 @@ async function load() {
   els.sourceStatus.textContent = staticMode
     ? `GitHub Pages版 / ${sourceCount}/${(trends.sources || []).length} ソース取得`
     : `${sourceCount}/${(trends.sources || []).length} ソース取得`;
-
   els.analyzeButton.textContent = staticMode ? "GitHub Actionsで更新" : "今日のトレンドを更新";
 
   renderNews(trends.newsTrends || []);
@@ -293,7 +330,9 @@ async function load() {
   renderLearned(scored);
   renderTopicList(els.watchLater, scored.watchLater || [], true);
   renderTopicList(els.hiddenOrCovered, scored.hiddenOrCovered || [], true);
+  await renderCodexPrompt();
 }
 
 els.analyzeButton.addEventListener("click", runAnalyze);
+els.copyPromptButton.addEventListener("click", copyPrompt);
 load();
