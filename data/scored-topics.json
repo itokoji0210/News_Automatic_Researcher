@@ -1,122 +1,62 @@
 {
-  "generatedAt": "2026-05-12T16:27:46.036Z",
+  "generatedAt": "2026-05-12T22:14:56.489Z",
   "topics": [
     {
-      "id": "topic-zmaiiy",
-      "trendWord": "梅雨",
-      "title": "「梅雨」を写真で追う: 大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に(RKB毎日放送)",
+      "id": "topic-1xifh22",
+      "trendWord": "田植え",
+      "title": "「田植え」を写真で追う: 米菓メーカー亀田製菓の“新米社員”が田植え体験「手間かかるコメみんなで作る」《新潟》(TeNYテレビ新潟)",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "田植え、用水、農作業、天候影響が分かる風景"
       ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/cc388349c89fb57bf09b4d66b3a914a0d8afd400?source=rss",
-      "evidenceTitle": "大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に(RKB毎日放送)",
+      "evidenceUrl": "https://news.yahoo.co.jp/articles/f9101f1f8e2be03e4e425d365172ef5d880b03da?source=rss",
+      "evidenceTitle": "米菓メーカー亀田製菓の“新米社員”が田植え体験「手間かかるコメみんなで作る」《新潟》(TeNYテレビ新潟)",
       "source": "Yahoo!ニュース 地域",
       "sourceType": "local",
-      "publishedAt": "2026-05-12T14:51:17.000Z",
+      "publishedAt": "2026-05-12T21:50:00.000Z",
       "categories": [
         "季節語",
         "写真ネタ化"
       ],
       "regions": [
-        "福岡"
+        "新潟"
       ],
       "keywords": [
-        "梅雨"
+        "田植え"
       ],
       "trust": 0.86,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.223Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 38,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-10n4e0s",
-      "trendWord": "地震",
-      "title": "「地震」を写真で追う: 関連死、新たに3人 能登町、七尾市(北國新聞社)",
+      "id": "topic-1xu8foa",
+      "trendWord": "田植え",
+      "title": "「田植え」を写真で追う: 田植えに向け代かき 千代「よこね田んぼ」で住民ら【長野県】(南信州新聞)",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "田植え、用水、農作業、天候影響が分かる風景"
       ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/f089ff6dcad2c9a472d38d18b33385a6eaf22ae0?source=rss",
-      "evidenceTitle": "関連死、新たに3人 能登町、七尾市(北國新聞社)",
+      "evidenceUrl": "https://news.yahoo.co.jp/articles/41353c2f2146e0351673ac5d4e1a72ecbf4d1967?source=rss",
+      "evidenceTitle": "田植えに向け代かき 千代「よこね田んぼ」で住民ら【長野県】(南信州新聞)",
       "source": "Yahoo!ニュース 地域",
       "sourceType": "local",
-      "publishedAt": "2026-05-12T14:39:15.000Z",
+      "publishedAt": "2026-05-12T21:03:49.000Z",
       "categories": [
-        "災害語",
+        "季節語",
         "写真ネタ化"
       ],
       "regions": [
-        "石川"
+        "長野"
       ],
       "keywords": [
-        "地震"
+        "田植え"
       ],
       "trust": 0.86,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 38,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1f6p309",
-      "trendWord": "火災",
-      "title": "「火災」を写真で追う: 「鉄筋を切っていたら火花が…」枯草火災で軽トラック全焼 ビニールハウス骨組み切断中の火花が原因か 鹿児島(MBC南日本放送)",
-      "photoCandidates": [
-        "見頃の花、来訪者、管理する人、周辺交通や混雑",
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/73b0089ba63ee8bea051c107810df66bde6739eb?source=rss",
-      "evidenceTitle": "「鉄筋を切っていたら火花が…」枯草火災で軽トラック全焼 ビニールハウス骨組み切断中の火花が原因か 鹿児島(MBC南日本放送)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T15:22:13.000Z",
-      "categories": [
-        "災害語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "鹿児島"
-      ],
-      "keywords": [
-        "火災"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": true,
-      "createdAt": "2026-05-12T16:27:39.225Z",
-      "score": 38,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-67q1gt",
-      "trendWord": "梅雨時期を前に",
-      "title": "「梅雨時期を前に」を写真で追う: 大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に(RKB毎日放送)",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/cc388349c89fb57bf09b4d66b3a914a0d8afd400?source=rss",
-      "evidenceTitle": "大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に(RKB毎日放送)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T14:51:17.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [
-        "福岡"
-      ],
-      "keywords": [
-        "梅雨時期を前に"
-      ],
-      "trust": 0.86,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 38,
       "userStatus": null,
       "requiresVerification": false
@@ -143,34 +83,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": true,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 36,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-sd1uak",
-      "trendWord": "観光地",
-      "title": "「観光地」を写真で追う: にし茶屋街で「賛否両論 金沢」が営業再開 「大好きな金沢を応援したい」",
-      "photoCandidates": [
-        "観光地の混雑、行列、案内表示、地域側の対応"
-      ],
-      "evidenceUrl": "https://kanazawa.keizai.biz/headline/4045/",
-      "evidenceTitle": "にし茶屋街で「賛否両論 金沢」が営業再開 「大好きな金沢を応援したい」",
-      "source": "みんなの経済新聞ネットワーク",
-      "sourceType": "local-business",
-      "publishedAt": "2026-05-11T12:00:00.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "観光地"
-      ],
-      "trust": 0.86,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.824Z",
       "score": 36,
       "userStatus": null,
       "requiresVerification": false
@@ -197,7 +110,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": true,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 36,
       "userStatus": null,
       "requiresVerification": false
@@ -225,7 +138,7 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.223Z",
+      "createdAt": "2026-05-12T22:14:49.823Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -256,7 +169,37 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.223Z",
+      "createdAt": "2026-05-12T22:14:49.824Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-h5er9b",
+      "trendWord": "復旧",
+      "title": "「復旧」を写真で追う: 愛知県常滑市で水道管が漏水、水圧低下や濁り 応急復旧完了 - 中日新聞Web",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5URl9uQndSV3kzNkhsOS1WOUw0bHJ1R05kOUVuWEZvdEVVcmhDQUNEWXFzSHFuZ2p1eDJoTFRRZG5haHlOck1OeDVGRDBjQTRaSUFfMQ?oc=5",
+      "evidenceTitle": "愛知県常滑市で水道管が漏水、水圧低下や濁り 応急復旧完了 - 中日新聞Web",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T10:52:35.000Z",
+      "categories": [
+        "災害語",
+        "写真ネタ化"
+      ],
+      "regions": [
+        "愛知"
+      ],
+      "keywords": [
+        "復旧"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.824Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -286,329 +229,37 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.223Z",
+      "createdAt": "2026-05-12T22:14:49.824Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-gdwpvd",
-      "trendWord": "復旧",
-      "title": "「復旧」を写真で追う: 八潮道路陥没事故 最後の復旧工法検討委／埼玉県（テレ玉） - Yahoo!ニュース",
+      "id": "topic-ee3idz",
+      "trendWord": "再開発",
+      "title": "「再開発」を写真で追う: タモリ 新宿、渋谷、東京駅の大規模再開発に迫る 23日放送テレ朝特番「タモリステーション」（スポニチアネックス） - Yahoo!ニュース",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5QmFLTk81aU01YURPWEwyRGpTb09PSXZpeUNfQVpvc015LW5KRmUzQ0NsVUlBNHpYeXpmUDRqdWdDYXY2cEM5QUNZM01jT3U0QmZIT2hfN0hFdjJRQmlPWE1DYmRIWWhnYnNIN1ZWendDMmVvb3FjN2Nrc2wxYlk?oc=5",
-      "evidenceTitle": "八潮道路陥没事故 最後の復旧工法検討委／埼玉県（テレ玉） - Yahoo!ニュース",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T09:52:23.000Z",
-      "categories": [
-        "災害語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "埼玉"
-      ],
-      "keywords": [
-        "復旧"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.223Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-m20qc5",
-      "trendWord": "梅雨",
-      "title": "「梅雨」を写真で追う: 「自然災害が頻発化、激甚化している」梅雨を前に知事と防災機関トップたちが意見交わす 災害発生の際の連携強化 福岡 - 福岡TNCニュース",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xNlZXeXhReHJKeWVKSVJhbjFHLWlPdVlWNnNrUDFYOUx2YjZIRjFsNmppQjg1TUszeTRTdFRpcVFYXzM4bGJUUjIxWTlEOTJDUk85Q0lpSlFwRXNmTmNMRTFQRQ?oc=5",
-      "evidenceTitle": "「自然災害が頻発化、激甚化している」梅雨を前に知事と防災機関トップたちが意見交わす 災害発生の際の連携強化 福岡 - 福岡TNCニュース",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T05:38:22.000Z",
-      "categories": [
-        "季節語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "福岡"
-      ],
-      "keywords": [
-        "梅雨"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1d6mgjr",
-      "trendWord": "梅雨",
-      "title": "「梅雨」を写真で追う: 大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に（RKB毎日放送） - Yahoo!ニュース",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FMkh5N0xuSTJCNlJHanpyU1BPN2FBTF93QVk0MXlJLWVLcUx2X2NuU2t0VW1QaXJYOEhfZXFPMTd5dWdsa0R1R0hlblZxY0dkYWZpcDFkb0VWM3FxaFF3Wl82RlQ2aWh4NDZaTEVyWE9xeUtSUUpaUEN4eG54a3c?oc=5",
-      "evidenceTitle": "大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に（RKB毎日放送） - Yahoo!ニュース",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T14:51:17.000Z",
-      "categories": [
-        "季節語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "福岡"
-      ],
-      "keywords": [
-        "梅雨"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-93k29y",
-      "trendWord": "港",
-      "title": "「港」を写真で追う: 「佐賀空港近くの土手に死体がある」佐賀市の畑で女性遺体 5月12日午後3時20分ごろ(佐賀新聞)",
-      "photoCandidates": [
-        "「港」が記事中で示す現場、告知、関係者の動き"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/ccec279badb26fbc79a32fa48601c9f4045a4381?source=rss",
-      "evidenceTitle": "「佐賀空港近くの土手に死体がある」佐賀市の畑で女性遺体 5月12日午後3時20分ごろ(佐賀新聞)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:03:20.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [
-        "佐賀"
-      ],
-      "keywords": [
-        "港"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1u3k0p4",
-      "trendWord": "観光地",
-      "title": "「観光地」を写真で追う: 飯坂温泉に“聖地巡礼” 温泉むすめイベントで観光地活性化(福島)（KFB福島放送） - Yahoo!ニュース",
-      "photoCandidates": [
-        "観光地の混雑、行列、案内表示、地域側の対応"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04QmNFSVRsU1JDUjhTWUtPdkhqczB6UWdUNkE2czc1bWM4Q0lXR2dKbWowd3NBMlF3aFViR1JSNWNCOU9vbVVvb3gxSHpTblE3Rzk0bWtpSU1zckV5OHBpdXQtR1EyaGN5a0ktaUhVVkxwUmttTmxFa2JTamd4X2c?oc=5",
-      "evidenceTitle": "飯坂温泉に“聖地巡礼” 温泉むすめイベントで観光地活性化(福島)（KFB福島放送） - Yahoo!ニュース",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51WDlXczFRaDJYbnM2WkZ1MjZEcGMzMlhiT2RvXy05QlQybHZLLUNoSFdJMXZpT1ZIaXQxbEo0ODVuZS1pNTRrcFJxSHVYQ2ZCdUNNb0xjcy0zUmtZVVpBcWswUmtFY2lfQUJSUFpSeW5uNm9LeWxpSDZRMjQ0WWM?oc=5",
+      "evidenceTitle": "タモリ 新宿、渋谷、東京駅の大規模再開発に迫る 23日放送テレ朝特番「タモリステーション」（スポニチアネックス） - Yahoo!ニュース",
       "source": "Google News 観光・地域",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T09:56:38.000Z",
+      "publishedAt": "2026-05-12T20:10:44.000Z",
       "categories": [
+        "社会問題語",
         "写真ネタ化"
       ],
       "regions": [
-        "福島"
+        "東京"
       ],
       "keywords": [
-        "観光地"
+        "再開発"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1bj6jas",
-      "trendWord": "観光地",
-      "title": "「観光地」を写真で追う: GW期間の福井県内観光地、テレビドラマ効果で客数増加 伸び率トップは… 県「新幹線効果は継続」 - 福井新聞社",
-      "photoCandidates": [
-        "観光地の混雑、行列、案内表示、地域側の対応"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGaUxvNEFJRHI2M1VWTW9kYi1HcW9waGhxRlc0ekVmUXVqdDRkbmFNaWpJdk9idEJjNXdFSVlJX2QzeUd3V1JxRWNJMFoyY3VZWldpN2poTi1QeWZEWmc?oc=5",
-      "evidenceTitle": "GW期間の福井県内観光地、テレビドラマ効果で客数増加 伸び率トップは… 県「新幹線効果は継続」 - 福井新聞社",
-      "source": "Google News 観光・地域",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T02:30:00.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [
-        "福井"
-      ],
-      "keywords": [
-        "観光地"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-7ukv43",
-      "trendWord": "観光地",
-      "title": "「観光地」を写真で追う: 「中国の観光地には中国市民が溢れ 現地で感じた『国力』の足元の差」東浩紀 - AERA DIGITAL",
-      "photoCandidates": [
-        "観光地の混雑、行列、案内表示、地域側の対応"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xV3RNUWxCY2dDdWx4MjJJNVVDV2NDakYwMUI2d0VzSGhCR0hqd2RWZnZCSHYtYndfNUNTTVhOT051UmFMQ0JIMk5NMDZQZEkwVTcyQWpTWE9vdw?oc=5",
-      "evidenceTitle": "「中国の観光地には中国市民が溢れ 現地で感じた『国力』の足元の差」東浩紀 - AERA DIGITAL",
-      "source": "Google News 観光・地域",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T08:00:00.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "観光地"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-hkx2wp",
-      "trendWord": "避難",
-      "title": "「避難」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wM1dZcVJqOTFGNW5BdGltTHpjS1hqUHc4NkV6SkVFVGxTUHRVNTB4OGRTeGRUZktIRDQyRE5hU1k2RnV2RW5aMnI4N1k4ODI5X3pIRGd4a2dRdw?oc=5",
-      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T12:25:00.000Z",
-      "categories": [
-        "災害語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "山梨"
-      ],
-      "keywords": [
-        "避難"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1p7rdby",
-      "trendWord": "避難",
-      "title": "「避難」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yOEZ3SGhUdW02V3p2bWlYLVFkWWR1Rk9taFdWbk1ZbXlhRjNJWGV5QTlSV1E4TzFhZVlhZE91ZDR6WGcwUXBSYUEwN0NnUHFIelVFc0RzMWtkSHNnZVFOSWYwV1dKMEg4UzE1QklDMGtrMlk1cUtfTTd6ZnJrS1E?oc=5",
-      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T12:25:24.000Z",
-      "categories": [
-        "災害語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "山梨"
-      ],
-      "keywords": [
-        "避難"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1foh4n0",
-      "trendWord": "避難",
-      "title": "「避難」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xUzAzcFFoUDhXSFczcU5faHUzSkFWUld0TkVCMEFwSVJzcmtxbVpLOFVhaFRwQTFLRXpJYlNockVIOVFiRklXYktkcWN4b211MVcxWjNFRXVCTjliNjJjMTZ5MW0?oc=5",
-      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T12:25:00.000Z",
-      "categories": [
-        "災害語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "山梨"
-      ],
-      "keywords": [
-        "避難"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-n8vyxr",
-      "trendWord": "避難",
-      "title": "「避難」を写真で追う: 災害時ペット同行避難 指針改定へ - Yahoo!ニュース",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83bXkwbWdYSkZvUjNhSUc4M0RQRXJKa3NJVWpmeE5SWnIwSm5Cc0lNamkzTlFtMktKdnloUVRMbEhOekJfSGllSkctZks2dlk3?oc=5",
-      "evidenceTitle": "災害時ペット同行避難 指針改定へ - Yahoo!ニュース",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-09T10:14:07.000Z",
-      "categories": [
-        "災害語",
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "避難"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.824Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -639,7 +290,35 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-fuijbb",
+      "trendWord": "再開発",
+      "title": "「再開発」を写真で追う: タモリステーション、激変する都内の巨大駅を特集 大規模再開発が周辺の街にもたらす変化を読み解く（デイリースポーツ） - Yahoo!ニュース",
+      "photoCandidates": [
+        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1razdmeEc2XzFMcHFMbml1UTJSQjhHWENFNmdYVXA0TEtrZTNGamg0VWpBem9yblVXRTNvS3lnMk1renZvUnIteWhXNDJuYWpTS3ZsVVg4S0tSakxpdmIxT3Qzc2JaSURWaXl0UHlTTnFSc0RnYVNuWnM2XzRMWE0?oc=5",
+      "evidenceTitle": "タモリステーション、激変する都内の巨大駅を特集 大規模再開発が周辺の街にもたらす変化を読み解く（デイリースポーツ） - Yahoo!ニュース",
+      "source": "Google News 観光・地域",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T20:10:05.000Z",
+      "categories": [
+        "社会問題語",
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "再開発"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -669,93 +348,155 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1y6xxm6",
-      "trendWord": "再開発",
-      "title": "「再開発」を写真で追う: 【工事費高騰】東京・日本橋一丁目東再開発、事業費5000億円超に - 建設通信新聞Digital",
+      "id": "topic-m20qc5",
+      "trendWord": "梅雨",
+      "title": "「梅雨」を写真で追う: 「自然災害が頻発化、激甚化している」梅雨を前に知事と防災機関トップたちが意見交わす 災害発生の際の連携強化 福岡 - 福岡TNCニュース",
       "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5sMU1fX3ZWX1BIOWt2bE1GX2p5dnNQNWRJdnMyZWdrNzl3eVFtRGM1LVZlcTh4dWo2amlnelVJeFJPUzhybWNvV0lFX0JPcFB5Z3BHSjZCNA?oc=5",
-      "evidenceTitle": "【工事費高騰】東京・日本橋一丁目東再開発、事業費5000億円超に - 建設通信新聞Digital",
-      "source": "Google News 観光・地域",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xNlZXeXhReHJKeWVKSVJhbjFHLWlPdVlWNnNrUDFYOUx2YjZIRjFsNmppQjg1TUszeTRTdFRpcVFYXzM4bGJUUjIxWTlEOTJDUk85Q0lpSlFwRXNmTmNMRTFQRQ?oc=5",
+      "evidenceTitle": "「自然災害が頻発化、激甚化している」梅雨を前に知事と防災機関トップたちが意見交わす 災害発生の際の連携強化 福岡 - 福岡TNCニュース",
+      "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T03:29:00.000Z",
+      "publishedAt": "2026-05-12T05:38:23.000Z",
       "categories": [
-        "社会問題語",
+        "季節語",
         "写真ネタ化"
       ],
       "regions": [
-        "東京"
+        "福岡"
       ],
       "keywords": [
-        "再開発"
+        "梅雨"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1djqj9h",
-      "trendWord": "再開発",
-      "title": "「再開発」を写真で追う: 大牟田市・西鉄新栄町駅前の再開発、「医療と健康」テーマに…新たな駅舎や健康・スポーツ棟など設ける計画案 - Yahoo!ニュース",
+      "id": "topic-1d6mgjr",
+      "trendWord": "梅雨",
+      "title": "「梅雨」を写真で追う: 大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に（RKB毎日放送） - Yahoo!ニュース",
       "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9md0xzLW9pQXFLN2ZKb1BpcUUyQWgxazFPRW15cXkxSWkyeEJjdWFWaTlZUUZRdGNhUUxIRExGTjY5VjRIdnRZWkZVdHdUYVhlaVctaXpjWVIydTFCWDk4SWZUMzBPOFV5TXE5VmhFVVBVWWdNZVd3QUh1cmZQa3c?oc=5",
-      "evidenceTitle": "大牟田市・西鉄新栄町駅前の再開発、「医療と健康」テーマに…新たな駅舎や健康・スポーツ棟など設ける計画案 - Yahoo!ニュース",
-      "source": "Google News 観光・地域",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FMkh5N0xuSTJCNlJHanpyU1BPN2FBTF93QVk0MXlJLWVLcUx2X2NuU2t0VW1QaXJYOEhfZXFPMTd5dWdsa0R1R0hlblZxY0dkYWZpcDFkb0VWM3FxaFF3Wl82RlQ2aWh4NDZaTEVyWE9xeUtSUUpaUEN4eG54a3c?oc=5",
+      "evidenceTitle": "大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に（RKB毎日放送） - Yahoo!ニュース",
+      "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T06:00:29.000Z",
+      "publishedAt": "2026-05-12T14:51:17.000Z",
       "categories": [
-        "社会問題語",
+        "季節語",
+        "写真ネタ化"
+      ],
+      "regions": [
+        "福岡"
+      ],
+      "keywords": [
+        "梅雨"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1t4vzsr",
+      "trendWord": "梅雨",
+      "title": "「梅雨」を写真で追う: 大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に - TBS NEWS DIG",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2ZUp6WDRtczNIdFN5dmdxQXlxSHRjZ3d1U2JBN2EzTWxpazIyQnA4dk85Y0U3bW9QMTMxU2xuX3AyRWhUR2VTWGF0YS1MRi1ydUdFRVNBNlV6N19laDFURlJ6ZFdJQjA?oc=5",
+      "evidenceTitle": "大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に - TBS NEWS DIG",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T14:38:00.000Z",
+      "categories": [
+        "季節語",
+        "写真ネタ化"
+      ],
+      "regions": [
+        "福岡"
+      ],
+      "keywords": [
+        "梅雨"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1pgr0qm",
+      "trendWord": "梅雨",
+      "title": "「梅雨」を写真で追う: 周南 梅雨を前に 小学校で土砂災害の危険性や備えを学ぶ授業 - NHKニュース",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04REVyNzM2M0pPcHBDNkNjd3dLbHMwNERQdHctaTV2MUtYZVpzT2FQSzIwODRQeTNXYmtfdC01YjVGMFZ3ZmJMdGhQRTBxZnBEREhoSUpTRkc?oc=5",
+      "evidenceTitle": "周南 梅雨を前に 小学校で土砂災害の危険性や備えを学ぶ授業 - NHKニュース",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T09:57:00.000Z",
+      "categories": [
+        "季節語",
         "写真ネタ化"
       ],
       "regions": [],
       "keywords": [
-        "再開発"
+        "梅雨"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-3bfx8b",
+      "id": "topic-175zb8y",
       "trendWord": "地震",
-      "title": "「地震」を写真で追う: 編みぐるみで能登応援 主婦らのグループ「金石手芸部」宿泊施設で販売 売り上げ寄付「今後も続けたい」(北國新聞社)",
+      "title": "「地震」を写真で追う: 能登半島地震が富山湾の生態系に与えた影響を調査 今年で3回目(富山テレビ)",
       "photoCandidates": [
         "「地震」が記事中で示す現場、告知、関係者の動き"
       ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/f6f1bfd5c0d9fb5f5f4af582cd7b64f79d0029a5?source=rss",
-      "evidenceTitle": "編みぐるみで能登応援 主婦らのグループ「金石手芸部」宿泊施設で販売 売り上げ寄付「今後も続けたい」(北國新聞社)",
+      "evidenceUrl": "https://news.yahoo.co.jp/articles/99a878d11dde61d415b69ac0d8441b94ca7b6572?source=rss",
+      "evidenceTitle": "能登半島地震が富山湾の生態系に与えた影響を調査 今年で3回目(富山テレビ)",
       "source": "Yahoo!ニュース 地域",
       "sourceType": "local",
-      "publishedAt": "2026-05-12T13:54:18.000Z",
+      "publishedAt": "2026-05-12T21:30:02.000Z",
       "categories": [
         "災害語",
         "写真ネタ化"
       ],
-      "regions": [],
+      "regions": [
+        "富山"
+      ],
       "keywords": [
         "地震"
       ],
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -783,217 +524,237 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-19kghdq",
-      "trendWord": "クマ",
-      "title": "「クマ」を写真で追う: 大崎市田尻の路上でクマ1頭目撃・宮城(ミヤギテレビ)",
+      "id": "topic-1t3diek",
+      "trendWord": "地震",
+      "title": "「地震」を写真で追う: 能登半島地震 審査会が石川県内3人の災害関連死認定を答申 - NHKニュース",
       "photoCandidates": [
-        "注意喚起の掲示、出没地点周辺、住民生活への影響"
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/fd99f5b19b32a2805fbc323c9ff4bcac9a85ba48?source=rss",
-      "evidenceTitle": "大崎市田尻の路上でクマ1頭目撃・宮城(ミヤギテレビ)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:44:00.000Z",
-      "categories": [
-        "社会問題語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "宮城"
-      ],
-      "keywords": [
-        "クマ"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-130fc36",
-      "trendWord": "クマ",
-      "title": "「クマ」を写真で追う: 太白2丁目の路上を横切るクマ1頭目撃 宮城・仙台市太白区(ミヤギテレビ)",
-      "photoCandidates": [
-        "注意喚起の掲示、出没地点周辺、住民生活への影響"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/6efcaf6aba5b8e1c57bdff003ca76fbbddfb4137?source=rss",
-      "evidenceTitle": "太白2丁目の路上を横切るクマ1頭目撃 宮城・仙台市太白区(ミヤギテレビ)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:35:00.000Z",
-      "categories": [
-        "社会問題語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "宮城"
-      ],
-      "keywords": [
-        "クマ"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-g7109z",
-      "trendWord": "クマ",
-      "title": "「クマ」を写真で追う: 登山道でクマの目撃情報 「鈴やラジオを携帯して登山を」 静岡・裾野市(静岡朝日テレビ)",
-      "photoCandidates": [
-        "注意喚起の掲示、出没地点周辺、住民生活への影響"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/32fca33d04f373d3651c896d3f5fbf70c9ba9e88?source=rss",
-      "evidenceTitle": "登山道でクマの目撃情報 「鈴やラジオを携帯して登山を」 静岡・裾野市(静岡朝日テレビ)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:27:42.000Z",
-      "categories": [
-        "社会問題語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "静岡"
-      ],
-      "keywords": [
-        "クマ"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1ucpybl",
-      "trendWord": "クマ",
-      "title": "「クマ」を写真で追う: 東松島市野蒜ケ丘でクマ1頭目撃・近くにはJR野蒜駅・宮城(ミヤギテレビ)",
-      "photoCandidates": [
-        "注意喚起の掲示、出没地点周辺、住民生活への影響"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/5e67cdba9fc404befbbe7725c82eab1643b06903?source=rss",
-      "evidenceTitle": "東松島市野蒜ケ丘でクマ1頭目撃・近くにはJR野蒜駅・宮城(ミヤギテレビ)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:22:00.000Z",
-      "categories": [
-        "社会問題語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "宮城"
-      ],
-      "keywords": [
-        "クマ"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-16lhxh8",
-      "trendWord": "工事",
-      "title": "「工事」を写真で追う: 長崎 梅雨を前に災害の危険箇所や対策工事を視察 県北地域 - NHKニュース",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響",
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IOENkSmJ5c2FwR01rVXcwQllFWHh5ZUdrbm42VUdJb01vZThJelJaM3R4ai1zcE5TdVRuZVdxSkFWN2R1X0NkU1YtdEV5Zkp1cDkzQWxYbTA?oc=5",
-      "evidenceTitle": "長崎 梅雨を前に災害の危険箇所や対策工事を視察 県北地域 - NHKニュース",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1EdS1meExXb3hKcnhPcTFSVmFQYzhNUHpqbkk0QkVnZmNHeldKQlRCb3NfbDQtWGJneVFsM3BzSV9LRXAybEdXcTd5MGxNUzlKWXpYN0tjdnY?oc=5",
+      "evidenceTitle": "能登半島地震 審査会が石川県内3人の災害関連死認定を答申 - NHKニュース",
       "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T08:19:00.000Z",
+      "publishedAt": "2026-05-12T11:12:00.000Z",
       "categories": [
+        "災害語",
         "写真ネタ化"
       ],
       "regions": [
-        "長崎"
+        "石川"
       ],
       "keywords": [
-        "工事"
+        "地震"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-108ax5v",
-      "trendWord": "工事",
-      "title": "「工事」を写真で追う: 摂津で市道3メートル陥没 復旧工事あすまでの予定 ／大阪 - 毎日新聞",
+      "id": "topic-n8vyxr",
+      "trendWord": "避難",
+      "title": "「避難」を写真で追う: 災害時ペット同行避難 指針改定へ - Yahoo!ニュース",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響",
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wUDFvU2F0RWl6LVU5MVNoOW1CaVN6YVJIdS11c0dZdGlRTVpiSHdHYUtPTGdRWnMyVjJ4Y1dLMDQtRkxlVF8tUGZmN3RvQnZjTkdpWnVzeWRRb3hzV2VBRmcyWkw5aWQ3?oc=5",
-      "evidenceTitle": "摂津で市道3メートル陥没 復旧工事あすまでの予定 ／大阪 - 毎日新聞",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83bXkwbWdYSkZvUjNhSUc4M0RQRXJKa3NJVWpmeE5SWnIwSm5Cc0lNamkzTlFtMktKdnloUVRMbEhOekJfSGllSkctZks2dlk3?oc=5",
+      "evidenceTitle": "災害時ペット同行避難 指針改定へ - Yahoo!ニュース",
       "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-11T20:01:04.000Z",
+      "publishedAt": "2026-05-09T10:14:07.000Z",
       "categories": [
+        "災害語",
         "写真ネタ化"
       ],
-      "regions": [
-        "大阪"
-      ],
+      "regions": [],
       "keywords": [
-        "工事"
+        "避難"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-19042x1",
-      "trendWord": "工事",
-      "title": "「工事」を写真で追う: 横浜や大阪で懸命の復旧工事…各地で道路陥没 “拡大”も - テレ朝NEWS",
+      "id": "topic-hkx2wp",
+      "trendWord": "避難",
+      "title": "「避難」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響",
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WMWdsZ3dXRTc5OGlVdXQxbXBHdTVJbXJnOWIzUmk2TWtwVGFrX3JGdk01dExhRGkyMUtETE1VOUF4THBDTzJnTVVOOHdJeGk3MUVUcTlPMGh0bFBrR04wM1pXX2ZVY3RObG5mU1lRa2Frdw?oc=5",
-      "evidenceTitle": "横浜や大阪で懸命の復旧工事…各地で道路陥没 “拡大”も - テレ朝NEWS",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wM1dZcVJqOTFGNW5BdGltTHpjS1hqUHc4NkV6SkVFVGxTUHRVNTB4OGRTeGRUZktIRDQyRE5hU1k2RnV2RW5aMnI4N1k4ODI5X3pIRGd4a2dRdw?oc=5",
+      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
       "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-11T15:56:00.000Z",
+      "publishedAt": "2026-05-12T12:25:00.000Z",
       "categories": [
+        "災害語",
         "写真ネタ化"
       ],
       "regions": [
-        "大阪"
+        "山梨"
       ],
       "keywords": [
-        "工事"
+        "避難"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1p7rdby",
+      "trendWord": "避難",
+      "title": "「避難」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yOEZ3SGhUdW02V3p2bWlYLVFkWWR1Rk9taFdWbk1ZbXlhRjNJWGV5QTlSV1E4TzFhZVlhZE91ZDR6WGcwUXBSYUEwN0NnUHFIelVFc0RzMWtkSHNnZVFOSWYwV1dKMEg4UzE1QklDMGtrMlk1cUtfTTd6ZnJrS1E?oc=5",
+      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T12:25:24.000Z",
+      "categories": [
+        "災害語",
+        "写真ネタ化"
+      ],
+      "regions": [
+        "山梨"
+      ],
+      "keywords": [
+        "避難"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1foh4n0",
+      "trendWord": "避難",
+      "title": "「避難」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xUzAzcFFoUDhXSFczcU5faHUzSkFWUld0TkVCMEFwSVJzcmtxbVpLOFVhaFRwQTFLRXpJYlNockVIOVFiRklXYktkcWN4b211MVcxWjNFRXVCTjliNjJjMTZ5MW0?oc=5",
+      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T12:25:00.000Z",
+      "categories": [
+        "災害語",
+        "写真ネタ化"
+      ],
+      "regions": [
+        "山梨"
+      ],
+      "keywords": [
+        "避難"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1frh2q5",
+      "trendWord": "駅前",
+      "title": "「駅前」を写真で追う: 大牟田市・西鉄新栄町駅前の再開発、「医療と健康」テーマに…新たな駅舎や健康・スポーツ棟など設ける計画案 - 読売新聞",
+      "photoCandidates": [
+        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zUGRYY3owUGFldHZ2bnlzekMwS1JpTVhKakVMaEJ3bUZjUjBVSmxkXzlucG9VcVN0NHdqNVZsQW1vbkNvT29iaktiY0w1ZDVTRmdza1M3SGV4RGp3cDhXYUY2Wm5MZDFlY0h3TjNQbktkdw?oc=5",
+      "evidenceTitle": "大牟田市・西鉄新栄町駅前の再開発、「医療と健康」テーマに…新たな駅舎や健康・スポーツ棟など設ける計画案 - 読売新聞",
+      "source": "Google News 観光・地域",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T06:00:00.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "駅前"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-c1o2uy",
+      "trendWord": "商店街",
+      "title": "「商店街」を写真で追う: 「商店街災害復旧事業」の6次募集の補助事業者を交付決定しました - chusho.meti.go.jp",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1naGs2NEJqbWRMcHRYRFBJMWhwa0lpTWVzUXZDaFdIaVMyY0hWRFgxRGQ5ekg4U1g4d3V2WHd6NlktM25xWlpteFhXMzZjc0QyRVpwUmEtaGVwS2RFRWgxQlhFdnRNY3J4VFEza1F0aWZJOXFzYURZYlgtcnQ1UQ?oc=5",
+      "evidenceTitle": "「商店街災害復旧事業」の6次募集の補助事業者を交付決定しました - chusho.meti.go.jp",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-01T07:00:00.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "商店街"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-n5wimw",
+      "trendWord": "火災",
+      "title": "「火災」を写真で追う: 大槌町林野火災による災害義援金について - 赤い羽根共同募金",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tUkFXd2tKaG5NeG5fMmxONDgybEJVNl9FSkowbDItZVNoZDBtQmhlU0dHMnhTY0toQ19IYnB5MGFnTlk2WF9oZTdobGJSWHIxMjdHU3BYVl9lU1VidG00NWd1WQ?oc=5",
+      "evidenceTitle": "大槌町林野火災による災害義援金について - 赤い羽根共同募金",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T09:05:02.000Z",
+      "categories": [
+        "災害語",
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "火災"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1021,7 +782,7 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1052,117 +813,38 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-p0ztaz",
+      "id": "topic-rn4q3g",
       "trendWord": "火災",
-      "title": "「火災」を写真で追う: 大槌町山林火災「鎮火」のめどは5月末 町は災害対策本部を警戒本部に切り替え（2026年5月12日掲載）｜TVI NEWS NNN - 日テレNEWS NNN",
+      "title": "「火災」を写真で追う: 災害から学ぶまちづくり 佐賀関火災の経験を防災力の強化に セミナー開催 大分（TOSテレビ大分） - Yahoo!ニュース",
       "photoCandidates": [
         "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX25nMS1rdlBkcVlwdldYRXpGYkdNaWZvZklOS2Q2cWJXWUJKcWtYZXd1VXFzOEQtTHV1SUxxUFNCRUV4SnJsNzRGWFo5cThxMXE1dmxwM3NIUE9KVUd2VFJDdURhU08zSTlWczFFdzRabkZ0VFlnaHlVQzhPOTNiMS1VVktyRXc?oc=5",
-      "evidenceTitle": "大槌町山林火災「鎮火」のめどは5月末 町は災害対策本部を警戒本部に切り替え（2026年5月12日掲載）｜TVI NEWS NNN - 日テレNEWS NNN",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aQ2hWU3NYMnJSSGhSejJzNnowWDRmUFFOSVVUZzNRSFZsenZfdEFqY2tvdE1Ud0YzTWRBczZ5ckZTTm41ZkxzYmM2eWN6cWxWLUdwaExzMDFYVVRESUx5T0Zuc0tuUlk4U1RSWGM0S01WcE14Yzctcm1ib3Rwdm8?oc=5",
+      "evidenceTitle": "災害から学ぶまちづくり 佐賀関火災の経験を防災力の強化に セミナー開催 大分（TOSテレビ大分） - Yahoo!ニュース",
       "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T09:32:01.000Z",
+      "publishedAt": "2026-05-12T09:47:01.000Z",
       "categories": [
         "災害語",
         "写真ネタ化"
       ],
-      "regions": [],
+      "regions": [
+        "佐賀",
+        "大分"
+      ],
       "keywords": [
         "火災"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1ttrw3z",
-      "trendWord": "祭り",
-      "title": "「祭り」を写真で追う: 松岡修造さん、佐藤直子さん、和倉でトークショー 30日(北國新聞社)",
-      "photoCandidates": [
-        "「祭り」が記事中で示す現場、告知、関係者の動き"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/552d3dc1e6946e12a05966fb79876fdbadea06eb?source=rss",
-      "evidenceTitle": "松岡修造さん、佐藤直子さん、和倉でトークショー 30日(北國新聞社)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:45:31.000Z",
-      "categories": [
-        "季節語",
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "祭り"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1rp4gc7",
-      "trendWord": "駅前",
-      "title": "「駅前」を写真で追う: 大牟田市・西鉄新栄町駅前の再開発、「医療と健康」テーマに…新たな駅舎や健康・スポーツ棟など設ける計画案 - Yahoo!ニュース",
-      "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9md0xzLW9pQXFLN2ZKb1BpcUUyQWgxazFPRW15cXkxSWkyeEJjdWFWaTlZUUZRdGNhUUxIRExGTjY5VjRIdnRZWkZVdHdUYVhlaVctaXpjWVIydTFCWDk4SWZUMzBPOFV5TXE5VmhFVVBVWWdNZVd3QUh1cmZQa3c?oc=5",
-      "evidenceTitle": "大牟田市・西鉄新栄町駅前の再開発、「医療と健康」テーマに…新たな駅舎や健康・スポーツ棟など設ける計画案 - Yahoo!ニュース",
-      "source": "Google News 観光・地域",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T06:00:29.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "駅前"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-c1o2uy",
-      "trendWord": "商店街",
-      "title": "「商店街」を写真で追う: 「商店街災害復旧事業」の6次募集の補助事業者を交付決定しました - chusho.meti.go.jp",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1naGs2NEJqbWRMcHRYRFBJMWhwa0lpTWVzUXZDaFdIaVMyY0hWRFgxRGQ5ekg4U1g4d3V2WHd6NlktM25xWlpteFhXMzZjc0QyRVpwUmEtaGVwS2RFRWgxQlhFdnRNY3J4VFEza1F0aWZJOXFzYURZYlgtcnQ1UQ?oc=5",
-      "evidenceTitle": "「商店街災害復旧事業」の6次募集の補助事業者を交付決定しました - chusho.meti.go.jp",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-01T07:00:00.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "商店街"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1190,7 +872,7 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1220,7 +902,7 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1248,37 +930,211 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-7aomig",
+      "id": "topic-tldrzy",
       "trendWord": "土砂災害",
-      "title": "「土砂災害」を写真で追う: 本島、落雷突風 土砂災害に注意 沖縄気象台 - 琉球新報デジタル",
+      "title": "「土砂災害」を写真で追う: 第5次山地防災・土砂災害対策計画（令和8～12）【砂防課所管分】 - pref.hyogo.lg.jp",
       "photoCandidates": [
         "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fTDRtSld1LVBhU1lvV0QxbUtWYUMzZnBDN2NVTmZ5ZWVwQkx1RkEwT0RVR3ZIeXd4SzNxUGpZTFNySU5pR293STVyZTcwM2NxQ09DVlczb3ZJX2VOUHRLaw?oc=5",
-      "evidenceTitle": "本島、落雷突風 土砂災害に注意 沖縄気象台 - 琉球新報デジタル",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xNDRNdjA5Rl91SE8yUkNDSGFHSDY4cU45LVdwZHI5ZUhkNDFWQ1pfZDJfYXhHczBScWxwTVBZSm5aSzY2eDhKSnBVVXZYamFjb0FqazBoamdObGdkamEtVk4tdw?oc=5",
+      "evidenceTitle": "第5次山地防災・土砂災害対策計画（令和8～12）【砂防課所管分】 - pref.hyogo.lg.jp",
       "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-11T20:00:00.000Z",
+      "publishedAt": "2026-04-14T07:00:00.000Z",
       "categories": [
         "災害語",
         "写真ネタ化"
       ],
-      "regions": [
-        "沖縄"
-      ],
+      "regions": [],
       "keywords": [
         "土砂災害"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-16lhxh8",
+      "trendWord": "工事",
+      "title": "「工事」を写真で追う: 長崎 梅雨を前に災害の危険箇所や対策工事を視察 県北地域 - NHKニュース",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響",
+        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IOENkSmJ5c2FwR01rVXcwQllFWHh5ZUdrbm42VUdJb01vZThJelJaM3R4ai1zcE5TdVRuZVdxSkFWN2R1X0NkU1YtdEV5Zkp1cDkzQWxYbTA?oc=5",
+      "evidenceTitle": "長崎 梅雨を前に災害の危険箇所や対策工事を視察 県北地域 - NHKニュース",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T08:19:00.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "長崎"
+      ],
+      "keywords": [
+        "工事"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-19042x1",
+      "trendWord": "工事",
+      "title": "「工事」を写真で追う: 横浜や大阪で懸命の復旧工事…各地で道路陥没 “拡大”も - テレ朝NEWS",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響",
+        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WMWdsZ3dXRTc5OGlVdXQxbXBHdTVJbXJnOWIzUmk2TWtwVGFrX3JGdk01dExhRGkyMUtETE1VOUF4THBDTzJnTVVOOHdJeGk3MUVUcTlPMGh0bFBrR04wM1pXX2ZVY3RObG5mU1lRa2Frdw?oc=5",
+      "evidenceTitle": "横浜や大阪で懸命の復旧工事…各地で道路陥没 “拡大”も - テレ朝NEWS",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-11T15:56:00.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "大阪"
+      ],
+      "keywords": [
+        "工事"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-17aaodi",
+      "trendWord": "災害時に自力避難が困難な",
+      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wM1dZcVJqOTFGNW5BdGltTHpjS1hqUHc4NkV6SkVFVGxTUHRVNTB4OGRTeGRUZktIRDQyRE5hU1k2RnV2RW5aMnI4N1k4ODI5X3pIRGd4a2dRdw?oc=5",
+      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T12:25:00.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "山梨"
+      ],
+      "keywords": [
+        "災害時に自力避難が困難な"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1u8azw7",
+      "trendWord": "災害時に自力避難が困難な",
+      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yOEZ3SGhUdW02V3p2bWlYLVFkWWR1Rk9taFdWbk1ZbXlhRjNJWGV5QTlSV1E4TzFhZVlhZE91ZDR6WGcwUXBSYUEwN0NnUHFIelVFc0RzMWtkSHNnZVFOSWYwV1dKMEg4UzE1QklDMGtrMlk1cUtfTTd6ZnJrS1E?oc=5",
+      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T12:25:24.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "山梨"
+      ],
+      "keywords": [
+        "災害時に自力避難が困難な"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-dgcrh1",
+      "trendWord": "災害時に自力避難が困難な",
+      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xUzAzcFFoUDhXSFczcU5faHUzSkFWUld0TkVCMEFwSVJzcmtxbVpLOFVhaFRwQTFLRXpJYlNockVIOVFiRklXYktkcWN4b211MVcxWjNFRXVCTjliNjJjMTZ5MW0?oc=5",
+      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T12:25:00.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "山梨"
+      ],
+      "keywords": [
+        "災害時に自力避難が困難な"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1k5m810",
+      "trendWord": "災害時に自力避難が困難な",
+      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - au Webポータル",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YcnBFNU9USHlqRDJJTGJNVlBKV0pTNy03VkRzQkZNaVZmNDBMbzZMS3gzakhDaEhLQ25obHdmZHY3aGdzUVFLeHJVTnpRaE04YXZiMzFIMm5nSGExZlFOXy11bEhOaE5KNzEzbHQ0WEpxV2NUWHRiODAtcw?oc=5",
+      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - au Webポータル",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T12:32:00.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "山梨"
+      ],
+      "keywords": [
+        "災害時に自力避難が困難な"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1307,7 +1163,7 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1336,7 +1192,7 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1366,7 +1222,7 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1396,181 +1252,146 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-c3lqcs",
-      "trendWord": "梅雨時期を前に",
-      "title": "「梅雨時期を前に」を写真で追う: 大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に（RKB毎日放送） - Yahoo!ニュース",
+      "id": "topic-l7lvt",
+      "trendWord": "観光地",
+      "title": "「観光地」を写真で追う: 「行ってよかった」観光地ランキング》圧倒的1位は「値段以上の価値がある」非日常を提供（週刊女性PRIME - Yahoo!ニュース",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "観光地の混雑、行列、案内表示、地域側の対応"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FMkh5N0xuSTJCNlJHanpyU1BPN2FBTF93QVk0MXlJLWVLcUx2X2NuU2t0VW1QaXJYOEhfZXFPMTd5dWdsa0R1R0hlblZxY0dkYWZpcDFkb0VWM3FxaFF3Wl82RlQ2aWh4NDZaTEVyWE9xeUtSUUpaUEN4eG54a3c?oc=5",
-      "evidenceTitle": "大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に（RKB毎日放送） - Yahoo!ニュース",
-      "source": "Google News 災害",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZREZqRlcxVks0SVdCMFdMMFlMREd2dW1MQVpUbHBCQTNNN0NjZllqMnNOc051M1BZV1ZMVTYxQlFSX1czM0pBc3dELVJBampGU1lvdzYySVI2cFlwSmVSS3hnX1F5eHZUZFZHbktOSEMyV1hBbGtUSEx1YlN3QUE?oc=5",
+      "evidenceTitle": "「行ってよかった」観光地ランキング》圧倒的1位は「値段以上の価値がある」非日常を提供（週刊女性PRIME - Yahoo!ニュース",
+      "source": "Google News 観光・地域",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T14:51:17.000Z",
+      "publishedAt": "2026-05-08T02:00:38.000Z",
       "categories": [
         "写真ネタ化"
       ],
-      "regions": [
-        "福岡"
-      ],
+      "regions": [],
       "keywords": [
-        "梅雨時期を前に"
+        "観光地"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1g148z4",
-      "trendWord": "梅雨時期を前に",
-      "title": "「梅雨時期を前に」を写真で追う: 大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に - TBS NEWS DIG",
+      "id": "topic-1hpe73c",
+      "trendWord": "観光地",
+      "title": "「観光地」を写真で追う: 「行かなきゃよかった」観光地ランキング》1位は“人間地獄”オーバーツーリズムの代表地（週刊女性PRIME - Yahoo!ニュース",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "観光地の混雑、行列、案内表示、地域側の対応"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2ZUp6WDRtczNIdFN5dmdxQXlxSHRjZ3d1U2JBN2EzTWxpazIyQnA4dk85Y0U3bW9QMTMxU2xuX3AyRWhUR2VTWGF0YS1MRi1ydUdFRVNBNlV6N19laDFURlJ6ZFdJQjA?oc=5",
-      "evidenceTitle": "大規模災害に備えて連携強化を確認 福岡県や自衛隊などがトップ会談 梅雨時期を前に - TBS NEWS DIG",
-      "source": "Google News 災害",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wNVdzUXkzWmozYndCejJSZ0l6ZVhnclVFdVQxWDhGN0RNUHlFNy1ZWGI0S0NJV1cxWllXcW8xOV9lX0t4RnBGSEFRR1ZoeWpiaEVoWnVhaGhybWNNeUxSVVBHSWQzUUJvTHVOOXN6b3ZwX3ZVX2hGYXoyOUg3X3M?oc=5",
+      "evidenceTitle": "「行かなきゃよかった」観光地ランキング》1位は“人間地獄”オーバーツーリズムの代表地（週刊女性PRIME - Yahoo!ニュース",
+      "source": "Google News 観光・地域",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T14:38:00.000Z",
+      "publishedAt": "2026-05-08T02:00:36.000Z",
       "categories": [
         "写真ネタ化"
       ],
-      "regions": [
-        "福岡"
-      ],
+      "regions": [],
       "keywords": [
-        "梅雨時期を前に"
+        "観光地"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-17aaodi",
-      "trendWord": "災害時に自力避難が困難な",
-      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "id": "topic-1bj6jas",
+      "trendWord": "観光地",
+      "title": "「観光地」を写真で追う: GW期間の福井県内観光地、テレビドラマ効果で客数増加 伸び率トップは… 県「新幹線効果は継続」 - 福井新聞社",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "観光地の混雑、行列、案内表示、地域側の対応"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wM1dZcVJqOTFGNW5BdGltTHpjS1hqUHc4NkV6SkVFVGxTUHRVNTB4OGRTeGRUZktIRDQyRE5hU1k2RnV2RW5aMnI4N1k4ODI5X3pIRGd4a2dRdw?oc=5",
-      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
-      "source": "Google News 災害",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGaUxvNEFJRHI2M1VWTW9kYi1HcW9waGhxRlc0ekVmUXVqdDRkbmFNaWpJdk9idEJjNXdFSVlJX2QzeUd3V1JxRWNJMFoyY3VZWldpN2poTi1QeWZEWmc?oc=5",
+      "evidenceTitle": "GW期間の福井県内観光地、テレビドラマ効果で客数増加 伸び率トップは… 県「新幹線効果は継続」 - 福井新聞社",
+      "source": "Google News 観光・地域",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T12:25:00.000Z",
+      "publishedAt": "2026-05-12T02:30:00.000Z",
       "categories": [
         "写真ネタ化"
       ],
       "regions": [
-        "山梨"
+        "福井"
       ],
       "keywords": [
-        "災害時に自力避難が困難な"
+        "観光地"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1u8azw7",
-      "trendWord": "災害時に自力避難が困難な",
-      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
+      "id": "topic-7ukv43",
+      "trendWord": "観光地",
+      "title": "「観光地」を写真で追う: 「中国の観光地には中国市民が溢れ 現地で感じた『国力』の足元の差」東浩紀 - AERA DIGITAL",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "観光地の混雑、行列、案内表示、地域側の対応"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yOEZ3SGhUdW02V3p2bWlYLVFkWWR1Rk9taFdWbk1ZbXlhRjNJWGV5QTlSV1E4TzFhZVlhZE91ZDR6WGcwUXBSYUEwN0NnUHFIelVFc0RzMWtkSHNnZVFOSWYwV1dKMEg4UzE1QklDMGtrMlk1cUtfTTd6ZnJrS1E?oc=5",
-      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨（UTYテレビ山梨） - Yahoo!ニュース",
-      "source": "Google News 災害",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xV3RNUWxCY2dDdWx4MjJJNVVDV2NDakYwMUI2d0VzSGhCR0hqd2RWZnZCSHYtYndfNUNTTVhOT051UmFMQ0JIMk5NMDZQZEkwVTcyQWpTWE9vdw?oc=5",
+      "evidenceTitle": "「中国の観光地には中国市民が溢れ 現地で感じた『国力』の足元の差」東浩紀 - AERA DIGITAL",
+      "source": "Google News 観光・地域",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T12:25:24.000Z",
+      "publishedAt": "2026-05-12T08:00:00.000Z",
       "categories": [
         "写真ネタ化"
       ],
-      "regions": [
-        "山梨"
-      ],
+      "regions": [],
       "keywords": [
-        "災害時に自力避難が困難な"
+        "観光地"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-dgcrh1",
-      "trendWord": "災害時に自力避難が困難な",
-      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
+      "id": "topic-q0bvfo",
+      "trendWord": "文化財",
+      "title": "「文化財」を写真で追う: 大山寺の重文指定で記念切手 17日から300シート限定販売 鴨川（千葉県）(房日新聞)",
       "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
+        "文化財の外観、保存作業、地域の利用風景"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xUzAzcFFoUDhXSFczcU5faHUzSkFWUld0TkVCMEFwSVJzcmtxbVpLOFVhaFRwQTFLRXpJYlNockVIOVFiRklXYktkcWN4b211MVcxWjNFRXVCTjliNjJjMTZ5MW0?oc=5",
-      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - TBS NEWS DIG",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T12:25:00.000Z",
+      "evidenceUrl": "https://news.yahoo.co.jp/articles/16ac03a13c4826c505a884db3eb4b117a6a32698?source=rss",
+      "evidenceTitle": "大山寺の重文指定で記念切手 17日から300シート限定販売 鴨川（千葉県）(房日新聞)",
+      "source": "Yahoo!ニュース 地域",
+      "sourceType": "local",
+      "publishedAt": "2026-05-12T21:32:12.000Z",
       "categories": [
         "写真ネタ化"
       ],
       "regions": [
-        "山梨"
+        "千葉"
       ],
       "keywords": [
-        "災害時に自力避難が困難な"
+        "文化財"
       ],
-      "trust": 0.72,
-      "droneSuitable": true,
+      "trust": 0.86,
+      "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1k5m810",
-      "trendWord": "災害時に自力避難が困難な",
-      "title": "「災害時に自力避難が困難な」を写真で追う: 「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - au Webポータル",
-      "photoCandidates": [
-        "被害箇所、復旧作業、避難情報、支援や交通影響"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YcnBFNU9USHlqRDJJTGJNVlBKV0pTNy03VkRzQkZNaVZmNDBMbzZMS3gzakhDaEhLQ25obHdmZHY3aGdzUVFLeHJVTnpRaE04YXZiMzFIMm5nSGExZlFOXy11bEhOaE5KNzEzbHQ0WEpxV2NUWHRiODAtcw?oc=5",
-      "evidenceTitle": "「縦割りの壁を越えて連携が大事」災害時に自力避難が困難な人への対応 県や市町村が会議 山梨 - au Webポータル",
-      "source": "Google News 災害",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T12:32:00.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [
-        "山梨"
-      ],
-      "keywords": [
-        "災害時に自力避難が困難な"
-      ],
-      "trust": 0.72,
-      "droneSuitable": true,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
@@ -1597,237 +1418,183 @@
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1dgxtxq",
-      "trendWord": "メートルのクマ",
-      "title": "「メートルのクマ」を写真で追う: 大崎市田尻の路上でクマ1頭目撃・宮城(ミヤギテレビ)",
+      "id": "topic-nry4bt",
+      "trendWord": "断水",
+      "title": "「断水」を写真で追う: 厚真の断水や濁り水、補修終え復旧 - 北海道新聞デジタル",
       "photoCandidates": [
-        "注意喚起の掲示、出没地点周辺、住民生活への影響"
+        "水位・農地・給水対応など、記事で触れられた影響が見える現場",
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/fd99f5b19b32a2805fbc323c9ff4bcac9a85ba48?source=rss",
-      "evidenceTitle": "大崎市田尻の路上でクマ1頭目撃・宮城(ミヤギテレビ)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:44:00.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [
-        "宮城"
-      ],
-      "keywords": [
-        "メートルのクマ"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1t0v5d",
-      "trendWord": "メートルのクマ",
-      "title": "「メートルのクマ」を写真で追う: 東松島市野蒜ケ丘でクマ1頭目撃・近くにはJR野蒜駅・宮城(ミヤギテレビ)",
-      "photoCandidates": [
-        "注意喚起の掲示、出没地点周辺、住民生活への影響"
-      ],
-      "evidenceUrl": "https://news.yahoo.co.jp/articles/5e67cdba9fc404befbbe7725c82eab1643b06903?source=rss",
-      "evidenceTitle": "東松島市野蒜ケ丘でクマ1頭目撃・近くにはJR野蒜駅・宮城(ミヤギテレビ)",
-      "source": "Yahoo!ニュース 地域",
-      "sourceType": "local",
-      "publishedAt": "2026-05-12T13:22:00.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [
-        "宮城"
-      ],
-      "keywords": [
-        "メートルのクマ"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1txuv34",
-      "trendWord": "雪",
-      "title": "「雪」を写真で追う: 今週の花＞母に感謝 黒木雪映（白石町） 草月流 | まちの話題 | 佐賀県のニュース - 佐賀新聞",
-      "photoCandidates": [
-        "見頃の花、来訪者、管理する人、周辺交通や混雑"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42RjNSMktkcTNSbWd4YkNxVWtLbnNXb294TmRwSUhkM3RRRHcwNUVGYkJKWXkwN3BZazJ2Rk5OVWMwWnMwbEpmM2k3MWhUNGx2cWpRQmZB?oc=5",
-      "evidenceTitle": "今週の花＞母に感謝 黒木雪映（白石町） 草月流 | まちの話題 | 佐賀県のニュース - 佐賀新聞",
-      "source": "Google News 観光・地域",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZTVFMUFMyaF93VUFiakMtZFdVLU5URlJkcEVTUmpSdnJ6b3pxR0FqeWQ4VVZ6dHFMUTVRM2NuLXQ2Ym9jZ3YzNUd3NzNsWjNQZ1JwZ1dGWDNpUQ?oc=5",
+      "evidenceTitle": "厚真の断水や濁り水、補修終え復旧 - 北海道新聞デジタル",
+      "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T13:02:48.000Z",
+      "publishedAt": "2026-05-12T13:05:23.000Z",
       "categories": [
-        "季節語",
-        "写真ネタ化"
-      ],
-      "regions": [
-        "佐賀"
-      ],
-      "keywords": [
-        "雪"
-      ],
-      "trust": 0.72,
-      "droneSuitable": false,
-      "flowerTopic": true,
-      "createdAt": "2026-05-12T16:27:39.227Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-7gyytc",
-      "trendWord": "雪",
-      "title": "「雪」を写真で追う: ＜今週の花＞母に感謝 黒木雪映（白石町） 草月流 - 47NEWS",
-      "photoCandidates": [
-        "見頃の花、来訪者、管理する人、周辺交通や混雑"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VNFBhU3NWWUswVTB6TmF5dFVBNTdfSDFGT1VjQnJQMWF2b0thdmhSdlN6dzBNNjAxMkxWa2VfYjNDRUQ1eTBmSEpvYw?oc=5",
-      "evidenceTitle": "＜今週の花＞母に感謝 黒木雪映（白石町） 草月流 - 47NEWS",
-      "source": "Google News 観光・地域",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T13:16:47.000Z",
-      "categories": [
-        "季節語",
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "雪"
-      ],
-      "trust": 0.72,
-      "droneSuitable": false,
-      "flowerTopic": true,
-      "createdAt": "2026-05-12T16:27:39.227Z",
-      "score": 34,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1nyd1mf",
-      "trendWord": "神宮外苑再開発",
-      "title": "「神宮外苑再開発」を写真で追う: 樹木伐採、取り消し認めず 神宮外苑再開発、住民敗訴 - 北海道新聞デジタル",
-      "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wSGFlY2Ywc1g2V0RzbVlIWGdHSEwwcElEbHhmbWQtNENvMlNfT3g3aEUwLUZqaTNBOVA4aTFadkZTNEh4Mng4MFdSc0Q2M3JrSUpCYkFfcWkzQQ?oc=5",
-      "evidenceTitle": "樹木伐採、取り消し認めず 神宮外苑再開発、住民敗訴 - 北海道新聞デジタル",
-      "source": "Google News 観光・地域",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T09:23:58.000Z",
-      "categories": [
+        "災害語",
         "写真ネタ化"
       ],
       "regions": [
         "北海道"
       ],
       "keywords": [
-        "神宮外苑再開発"
+        "断水"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1snzvke",
-      "trendWord": "神宮外苑再開発",
-      "title": "「神宮外苑再開発」を写真で追う: 神宮外苑再開発、樹木伐採許可の取り消し認めず 東京地裁判決 - 毎日新聞",
+      "id": "topic-st3sch",
+      "trendWord": "断水",
+      "title": "「断水」を写真で追う: 災害時用トイレ 運用手順確認 藤枝市社協 断水想定 排便袋設置を訓練 - 静岡新聞DIGITAL",
       "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+        "水位・農地・給水対応など、記事で触れられた影響が見える現場",
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54OXRlS0JRWmZhQmpia3FwQm5NVjVoNnRsaFlCMGFoQVNLWTI1akhRVzRXMXp2UF9sc05mam11QWpGRkdTT2w0M3pmN1lFWC1FZy1qSVlIcmRxOW5ManNVemIyVC11YXND?oc=5",
-      "evidenceTitle": "神宮外苑再開発、樹木伐採許可の取り消し認めず 東京地裁判決 - 毎日新聞",
-      "source": "Google News 観光・地域",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yUm0zYlRBQ3JZbjc0QUhid3RleG84Yjhybmh2Ni1uaTFIdlEyc2FWaU5NMHA5QVlRNjV5U0RMVkdPUVZDRFJHd29ZZzA0QQ?oc=5",
+      "evidenceTitle": "災害時用トイレ 運用手順確認 藤枝市社協 断水想定 排便袋設置を訓練 - 静岡新聞DIGITAL",
+      "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T06:02:58.000Z",
+      "publishedAt": "2026-05-12T21:00:00.000Z",
       "categories": [
+        "災害語",
         "写真ネタ化"
       ],
       "regions": [
-        "東京"
+        "静岡"
       ],
       "keywords": [
-        "神宮外苑再開発"
+        "断水"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1gjfdy5",
-      "trendWord": "神宮外苑再開発",
-      "title": "「神宮外苑再開発」を写真で追う: 樹木伐採、取り消し認めず 神宮外苑再開発、住民敗訴（共同通信） - Yahoo!ニュース",
+      "id": "topic-pxyrlm",
+      "trendWord": "断水",
+      "title": "「断水」を写真で追う: 厚真の断水や濁り水、補修終え復旧 - dメニューニュース",
       "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+        "水位・農地・給水対応など、記事で触れられた影響が見える現場",
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEcmF5NjVKOTYyOTIwNVpqcGNQcjFPdFV3ZlV0Tm5MUk9Qb0FCNnpoNm5jTGR3b3ZBOGtuN1pMMHloYkxRQnFwblZYdnVCVmI3LW1SV3dNNGhUSDV0QXMzUVZWcW9DY29JOXppZ2FMalhCV3RQNXBsT0VHMGdCamc?oc=5",
-      "evidenceTitle": "樹木伐採、取り消し認めず 神宮外苑再開発、住民敗訴（共同通信） - Yahoo!ニュース",
-      "source": "Google News 観光・地域",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS0MzM2FmQ2NXQmxyMWp1T2xjeVJaSExEMEFORVJlMVpiWWhXUE4wWWlRQml6RTJLa3VIOUU1bWk2TEUyNThrMnhsb2FBam5adXNheHFldVlhX2RuaXpOYjNfTGtITWJSVU1pVjQtOVRsUWlrUnp2eHd2WUduNkVfYnAtdUV5TlAzRHd4enpMTdIBggFBVV95cUxPcHlxUGdrWFJlS25EcnFWQndHN19qYUpNMVNNTEd0TW1KVGVqQTIyRWItSFZaQWJ4eV9Xd3BNSExLYXNZMEpDTVJQT21YVk8zSV80VXpDb3RwM2VjdkpLMy1mbFF1SG5oTkY2VmZ5b0IyLWhqMmp1N09JZC14WlVaU01B?oc=5",
+      "evidenceTitle": "厚真の断水や濁り水、補修終え復旧 - dメニューニュース",
+      "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-12T09:13:49.000Z",
+      "publishedAt": "2026-05-12T13:05:00.000Z",
       "categories": [
+        "災害語",
         "写真ネタ化"
       ],
       "regions": [],
       "keywords": [
-        "神宮外苑再開発"
+        "断水"
       ],
       "trust": 0.72,
       "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-1bhjcbb",
-      "trendWord": "梅雨",
-      "title": "「梅雨」を写真で追う: 清澄白河で「アンブレラ展」 猫キャラクターのデザイン傘そろえる",
+      "id": "topic-1ik00uk",
+      "trendWord": "災害復旧",
+      "title": "「災害復旧」を写真で追う: 「商店街災害復旧事業」の6次募集の補助事業者を交付決定しました - chusho.meti.go.jp",
       "photoCandidates": [
-        "「梅雨」が記事中で示す現場、告知、関係者の動き"
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
       ],
-      "evidenceUrl": "https://koto.keizai.biz/headline/862/",
-      "evidenceTitle": "清澄白河で「アンブレラ展」 猫キャラクターのデザイン傘そろえる",
-      "source": "みんなの経済新聞ネットワーク",
-      "sourceType": "local-business",
-      "publishedAt": "2026-05-11T12:15:08.000Z",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1naGs2NEJqbWRMcHRYRFBJMWhwa0lpTWVzUXZDaFdIaVMyY0hWRFgxRGQ5ekg4U1g4d3V2WHd6NlktM25xWlpteFhXMzZjc0QyRVpwUmEtaGVwS2RFRWgxQlhFdnRNY3J4VFEza1F0aWZJOXFzYURZYlgtcnQ1UQ?oc=5",
+      "evidenceTitle": "「商店街災害復旧事業」の6次募集の補助事業者を交付決定しました - chusho.meti.go.jp",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-01T07:00:00.000Z",
       "categories": [
-        "季節語",
+        "災害語",
         "写真ネタ化"
       ],
       "regions": [],
       "keywords": [
-        "梅雨"
+        "災害復旧"
       ],
-      "trust": 0.86,
-      "droneSuitable": false,
+      "trust": 0.72,
+      "droneSuitable": true,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.223Z",
-      "score": 32,
+      "createdAt": "2026-05-12T22:14:49.827Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-tl794b",
+      "trendWord": "災害復旧",
+      "title": "「災害復旧」を写真で追う: 公道の災害復旧対応について - city.niigata.lg.jp",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORmlEQ192T0dYeUFpWXFwb29zTzVJbFZBSXhGR25kRlkxVDlabEQzN2JXNUZQQjladG9sNWV5TU0zSUFxNVI1V2dEUUlOcUc2d1p6c0VJUWZqM3A5YlhzdmdONEFfZW1jVFMzMHZJQWNIUk5RX0hzeFMzYW9pMThBQTFhRWFMRXJ4cUtlcQ?oc=5",
+      "evidenceTitle": "公道の災害復旧対応について - city.niigata.lg.jp",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-04-08T07:00:00.000Z",
+      "categories": [
+        "災害語",
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "災害復旧"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.827Z",
+      "score": 34,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-v3gn57",
+      "trendWord": "災害復旧",
+      "title": "「災害復旧」を写真で追う: 道路災害復旧について - city.niigata.lg.jp",
+      "photoCandidates": [
+        "被害箇所、復旧作業、避難情報、支援や交通影響"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVENGQ1BGWUotdXpjdWJIQXJYNVZBaEdqcGhINXJkMVZkM3N0TzloZlluVGZqVjFPZ3NvbF8tNEpKRFVDYkFSU3ZGc0JBeUxLUkt0aWppeURWY1pqN3dlVWoyR291b3UxT3NuR3dpV2ZmVlhKakJ2d3V1Slo4MkNoVG9NSHowNUtjUGMweXZxa05XbkU?oc=5",
+      "evidenceTitle": "道路災害復旧について - city.niigata.lg.jp",
+      "source": "Google News 災害",
+      "sourceType": "news-search",
+      "publishedAt": "2026-04-01T07:00:00.000Z",
+      "categories": [
+        "災害語",
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "災害復旧"
+      ],
+      "trust": 0.72,
+      "droneSuitable": true,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.827Z",
+      "score": 34,
       "userStatus": null,
       "requiresVerification": false
     },
@@ -1853,7 +1620,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.824Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -1880,7 +1647,34 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.824Z",
+      "score": 32,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-isr0sr",
+      "trendWord": "港",
+      "title": "「港」を写真で追う: 旬を迎える全国1位の船橋産スズキ 「瞬〆」技術を披露",
+      "photoCandidates": [
+        "「港」が記事中で示す現場、告知、関係者の動き"
+      ],
+      "evidenceUrl": "https://funabashi.keizai.biz/headline/3735/",
+      "evidenceTitle": "旬を迎える全国1位の船橋産スズキ 「瞬〆」技術を披露",
+      "source": "みんなの経済新聞ネットワーク",
+      "sourceType": "local-business",
+      "publishedAt": "2026-05-12T03:22:09.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "港"
+      ],
+      "trust": 0.86,
+      "droneSuitable": false,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.824Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -1910,36 +1704,61 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.224Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-xg3zch",
-      "trendWord": "工事",
-      "title": "「工事」を写真で追う: 「じゃんぱら広島店」がリニューアル休業へ 14年ぶり刷新、展示量拡大も",
+      "id": "topic-s5zjy7",
+      "trendWord": "駅前",
+      "title": "「駅前」を写真で追う: 経堂「木漏れ日」でGW親子イベント 子どもの絵をその場でTシャツに",
       "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+        "「駅前」が記事中で示す現場、告知、関係者の動き"
       ],
-      "evidenceUrl": "https://hiroshima.keizai.biz/headline/4640/",
-      "evidenceTitle": "「じゃんぱら広島店」がリニューアル休業へ 14年ぶり刷新、展示量拡大も",
+      "evidenceUrl": "https://kyodo.keizai.biz/headline/781/",
+      "evidenceTitle": "経堂「木漏れ日」でGW親子イベント 子どもの絵をその場でTシャツに",
       "source": "みんなの経済新聞ネットワーク",
       "sourceType": "local-business",
-      "publishedAt": "2026-05-12T10:45:40.000Z",
+      "publishedAt": "2026-05-12T12:34:36.000Z",
       "categories": [
         "写真ネタ化"
       ],
-      "regions": [
-        "広島"
-      ],
+      "regions": [],
       "keywords": [
-        "工事"
+        "駅前"
       ],
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 32,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-1ngvm5r",
+      "trendWord": "駅前",
+      "title": "「駅前」を写真で追う: 学び続ける元教師、小野田駅前のバー「ティーチャー」5周年 交流の場にも",
+      "photoCandidates": [
+        "「駅前」が記事中で示す現場、告知、関係者の動き"
+      ],
+      "evidenceUrl": "https://yamaguchi.keizai.biz/headline/5421/",
+      "evidenceTitle": "学び続ける元教師、小野田駅前のバー「ティーチャー」5周年 交流の場にも",
+      "source": "みんなの経済新聞ネットワーク",
+      "sourceType": "local-business",
+      "publishedAt": "2026-05-12T06:43:35.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "駅前"
+      ],
+      "trust": 0.86,
+      "droneSuitable": false,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -1969,7 +1788,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -1997,7 +1816,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -2025,61 +1844,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
-      "score": 32,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-s5zjy7",
-      "trendWord": "駅前",
-      "title": "「駅前」を写真で追う: 経堂「木漏れ日」でGW親子イベント 子どもの絵をその場でTシャツに",
-      "photoCandidates": [
-        "「駅前」が記事中で示す現場、告知、関係者の動き"
-      ],
-      "evidenceUrl": "https://kyodo.keizai.biz/headline/781/",
-      "evidenceTitle": "経堂「木漏れ日」でGW親子イベント 子どもの絵をその場でTシャツに",
-      "source": "みんなの経済新聞ネットワーク",
-      "sourceType": "local-business",
-      "publishedAt": "2026-05-12T12:34:36.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "駅前"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
-      "score": 32,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1ngvm5r",
-      "trendWord": "駅前",
-      "title": "「駅前」を写真で追う: 学び続ける元教師、小野田駅前のバー「ティーチャー」5周年 交流の場にも",
-      "photoCandidates": [
-        "「駅前」が記事中で示す現場、告知、関係者の動き"
-      ],
-      "evidenceUrl": "https://yamaguchi.keizai.biz/headline/5421/",
-      "evidenceTitle": "学び続ける元教師、小野田駅前のバー「ティーチャー」5周年 交流の場にも",
-      "source": "みんなの経済新聞ネットワーク",
-      "sourceType": "local-business",
-      "publishedAt": "2026-05-12T06:43:35.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "駅前"
-      ],
-      "trust": 0.86,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.825Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -2106,7 +1871,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -2133,7 +1898,7 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 32,
       "userStatus": null,
       "requiresVerification": false
@@ -2162,8 +1927,121 @@
       "trust": 0.86,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 32,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-xg3zch",
+      "trendWord": "工事",
+      "title": "「工事」を写真で追う: 「じゃんぱら広島店」がリニューアル休業へ 14年ぶり刷新、展示量拡大も",
+      "photoCandidates": [
+        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+      ],
+      "evidenceUrl": "https://hiroshima.keizai.biz/headline/4640/",
+      "evidenceTitle": "「じゃんぱら広島店」がリニューアル休業へ 14年ぶり刷新、展示量拡大も",
+      "source": "みんなの経済新聞ネットワーク",
+      "sourceType": "local-business",
+      "publishedAt": "2026-05-12T10:45:40.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "広島"
+      ],
+      "keywords": [
+        "工事"
+      ],
+      "trust": 0.86,
+      "droneSuitable": false,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 32,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-v7eui",
+      "trendWord": "文化財",
+      "title": "「文化財」を写真で追う: 高松の重文「小比賀家住宅」で書・茶・華の展示 4人の作家が「道」表現",
+      "photoCandidates": [
+        "文化財の外観、保存作業、地域の利用風景"
+      ],
+      "evidenceUrl": "https://takamatsu.keizai.biz/headline/1494/",
+      "evidenceTitle": "高松の重文「小比賀家住宅」で書・茶・華の展示 4人の作家が「道」表現",
+      "source": "みんなの経済新聞ネットワーク",
+      "sourceType": "local-business",
+      "publishedAt": "2026-05-12T04:16:21.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [
+        "香川"
+      ],
+      "keywords": [
+        "文化財"
+      ],
+      "trust": 0.86,
+      "droneSuitable": false,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.827Z",
+      "score": 32,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-xxy0qi",
+      "trendWord": "駅前",
+      "title": "「駅前」を写真で追う: 名古屋駅前の『サラベス』が2026年6月30日をもって閉店 - 名古屋情報通",
+      "photoCandidates": [
+        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43d1Z2SDl2TWs5b3E3anJJeW1HWWtESVpyTVpyeGp3dlN5YUo0ZTlZWFQ5V3hhM3k2ZXNKTm1tXzBoamhmODU4OXl1NVZHQQ?oc=5",
+      "evidenceTitle": "名古屋駅前の『サラベス』が2026年6月30日をもって閉店 - 名古屋情報通",
+      "source": "Google News 観光・地域",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T05:20:47.000Z",
+      "categories": [
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "駅前"
+      ],
+      "trust": 0.72,
+      "droneSuitable": false,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.825Z",
+      "score": 30,
+      "userStatus": null,
+      "requiresVerification": false
+    },
+    {
+      "id": "topic-3o9qr7",
+      "trendWord": "祭り",
+      "title": "「祭り」を写真で追う: しょうぶあじさい祭り開催します - 町田薬師池公園｜四季彩の杜",
+      "photoCandidates": [
+        "「祭り」が記事中で示す現場、告知、関係者の動き"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOOWRjTmpzTGRQR3FwR3EwVFJpUnJTWl8tN1hoVXBVbUpRVlNxSXRmX09MdU8xVFpJV243YjhhUkFKM2R6TTJSdHo0MXQzQzBtSDR3aXRNXzV2OFJ0d3pCZlJsNEl3N0RYYUxyRGpFa01EY05zVVhtRlJqaGZSSk8tTmJ2aWhKOHhaQUhwbkR2RTQtdzZEemNkX3BsaUtUMDRXaF9mSGs3bDdjT2g1RVNjTUZpajNmNFFNY3huVVhaS0xVSFdBYTMweEtJNWk3Uks1enpsRDBOd1RqR1JQMklDZUF3VGExTzI2LUxOX0h4STRxQ0p2b1ZON2pjTkk3WlF4S0dRemU3czA5d2M5ZFdR?oc=5",
+      "evidenceTitle": "しょうぶあじさい祭り開催します - 町田薬師池公園｜四季彩の杜",
+      "source": "Google News 観光・地域",
+      "sourceType": "news-search",
+      "publishedAt": "2026-05-12T07:29:37.000Z",
+      "categories": [
+        "季節語",
+        "写真ネタ化"
+      ],
+      "regions": [],
+      "keywords": [
+        "祭り"
+      ],
+      "trust": 0.72,
+      "droneSuitable": false,
+      "flowerTopic": false,
+      "createdAt": "2026-05-12T22:14:49.826Z",
+      "score": 30,
       "userStatus": null,
       "requiresVerification": false
     },
@@ -2190,7 +2068,7 @@
       "trust": 0.72,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 30,
       "userStatus": null,
       "requiresVerification": false
@@ -2218,7 +2096,7 @@
       "trust": 0.72,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 30,
       "userStatus": null,
       "requiresVerification": false
@@ -2246,7 +2124,7 @@
       "trust": 0.72,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 30,
       "userStatus": null,
       "requiresVerification": false
@@ -2274,50 +2152,24 @@
       "trust": 0.72,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.225Z",
+      "createdAt": "2026-05-12T22:14:49.826Z",
       "score": 30,
       "userStatus": null,
       "requiresVerification": false
     },
     {
-      "id": "topic-xxy0qi",
-      "trendWord": "駅前",
-      "title": "「駅前」を写真で追う: 名古屋駅前の『サラベス』が2026年6月30日をもって閉店 - 名古屋情報通",
-      "photoCandidates": [
-        "店舗外観、駅前や商店街の変化、工事・解体・告知掲示"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43d1Z2SDl2TWs5b3E3anJJeW1HWWtESVpyTVpyeGp3dlN5YUo0ZTlZWFQ5V3hhM3k2ZXNKTm1tXzBoamhmODU4OXl1NVZHQQ?oc=5",
-      "evidenceTitle": "名古屋駅前の『サラベス』が2026年6月30日をもって閉店 - 名古屋情報通",
-      "source": "Google News 観光・地域",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T05:20:47.000Z",
-      "categories": [
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "駅前"
-      ],
-      "trust": 0.72,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.226Z",
-      "score": 30,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1m5aong",
+      "id": "topic-1ta5ry3",
       "trendWord": "水不足",
-      "title": "「水不足」を写真で追う: 【さらなる節水にご協力を】 水不足が進んでいます！ - city.fukuoka.lg.jp",
+      "title": "「水不足」を写真で追う: 広瀬川でアユ5000匹以上の大量死 原因は「農業用水の取水」などによる水不足か 仙台（tbc東北放送） - Yahoo!ニュース",
       "photoCandidates": [
-        "水位・農地・給水対応など、記事で触れられた影響が見える現場"
+        "水位・農地・給水対応など、記事で触れられた影響が見える現場",
+        "田植え、用水、農作業、天候影響が分かる風景"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12ei1WU1lYRi01MHpVbFBRcEdsOTEwdjJ0THZIV3BaZWc5blVwVkNIUm1lN1NTZWRoU0FFYm80OF9HRnlXblZPT3kxN3JwUWZiaTVFMm1RaDJlQmg5WjhKZFZtUERFaW52S2ZHbDRVQTVqRk9RSGpmWDVmQTE?oc=5",
-      "evidenceTitle": "【さらなる節水にご協力を】 水不足が進んでいます！ - city.fukuoka.lg.jp",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zRzdrZXdTZmFsYTVRWnRrcHdOMjUzeVVfWHRmR1RBNWswUW9XV0RITzk2R1NBVlZKUDFPYUhzXzdfOTF0eXF3c2hJaGFaVDE0NGgwSVp5Zk1MMF9JLWhTUjRpbS1jR1lDWGN4VGZqTDBaVGl3YWxPS00zZ3Myc2M?oc=5",
+      "evidenceTitle": "広瀬川でアユ5000匹以上の大量死 原因は「農業用水の取水」などによる水不足か 仙台（tbc東北放送） - Yahoo!ニュース",
       "source": "Google News 災害",
       "sourceType": "news-search",
-      "publishedAt": "2026-05-07T07:00:00.000Z",
+      "publishedAt": "2026-05-11T10:04:13.000Z",
       "categories": [
         "災害語",
         "写真ネタ化"
@@ -2329,7 +2181,7 @@
       "trust": 0.72,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 30,
       "userStatus": null,
       "requiresVerification": false
@@ -2357,7 +2209,7 @@
       "trust": 0.72,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 30,
       "userStatus": null,
       "requiresVerification": false
@@ -2385,35 +2237,7 @@
       "trust": 0.72,
       "droneSuitable": false,
       "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
-      "score": 30,
-      "userStatus": null,
-      "requiresVerification": false
-    },
-    {
-      "id": "topic-1e2lu3d",
-      "trendWord": "雪",
-      "title": "「雪」を写真で追う: 十日町駅そば「雪中庵」ほくほく線と歩んだ29年の歴史に幕 観光案内所のリニューアルに伴い - 十日町タウン情報",
-      "photoCandidates": [
-        "観光地の混雑、行列、案内表示、地域側の対応"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40TjJFQ010dXF6R2hZcnlrU1NRbU9ad1ZLdGVCdW9rcmN1clZvYnZqME1IQ09FU0xWRERpbmR1dl9jTjRoQ0Zaa2RpY3FKVUVEY29CbGwyS1hzcDVna0JV?oc=5",
-      "evidenceTitle": "十日町駅そば「雪中庵」ほくほく線と歩んだ29年の歴史に幕 観光案内所のリニューアルに伴い - 十日町タウン情報",
-      "source": "Google News 観光・地域",
-      "sourceType": "news-search",
-      "publishedAt": "2026-05-12T03:13:00.000Z",
-      "categories": [
-        "季節語",
-        "写真ネタ化"
-      ],
-      "regions": [],
-      "keywords": [
-        "雪"
-      ],
-      "trust": 0.72,
-      "droneSuitable": false,
-      "flowerTopic": false,
-      "createdAt": "2026-05-12T16:27:39.227Z",
+      "createdAt": "2026-05-12T22:14:49.827Z",
       "score": 30,
       "userStatus": null,
       "requiresVerification": false
