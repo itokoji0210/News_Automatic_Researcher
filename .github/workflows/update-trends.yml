@@ -1,5 +1,8 @@
 name: Update trends and publish Pages
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     - cron: "0 21 * * *"
@@ -22,13 +25,16 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Analyze trends
         run: npm run analyze:trends
 
       - name: Score topics
         run: npm run score:topics
+
+      - name: Generate Codex prompt
+        run: npm run generate:codex-prompt
 
       - name: Build static Pages files
         run: npm run build:pages
@@ -37,7 +43,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update trend data"
-          file_pattern: "data/*.json docs/** index.html styles.css app.js"
+          file_pattern: "data/*.json data/*.md docs/** index.html styles.css app.js"
 
       - uses: actions/configure-pages@v5
 
