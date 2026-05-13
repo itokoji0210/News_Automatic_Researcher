@@ -30,19 +30,19 @@ const DEFAULT_SOURCES = [
     url: "https://news.google.com/rss/search?q=%E5%9C%B0%E6%96%B9%20OR%20%E8%87%AA%E6%B2%BB%E4%BD%93%20OR%20%E5%95%86%E5%BA%97%E8%A1%97%20OR%20%E9%A7%85%E5%89%8D%20OR%20%E6%B8%AF%20OR%20%E7%A9%BA%E3%81%8D%E5%AE%B6&hl=ja&gl=JP&ceid=JP:ja"
   },
   {
-    name: "PR TIMES 地域・観光",
-    type: "pr",
-    url: "https://prtimes.jp/main/rss?keywords=%E8%A6%B3%E5%85%89"
+    name: "Google News PR TIMES 地域・観光",
+    type: "pr-search",
+    url: "https://news.google.com/rss/search?q=site%3Aprtimes.jp%20%28%E8%A6%B3%E5%85%89%20OR%20%E8%87%AA%E6%B2%BB%E4%BD%93%20OR%20%E8%8A%B1%20OR%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%29&hl=ja&gl=JP&ceid=JP:ja"
   },
   {
-    name: "PR TIMES 自治体",
-    type: "pr",
-    url: "https://prtimes.jp/main/rss?keywords=%E8%87%AA%E6%B2%BB%E4%BD%93"
+    name: "Google News @Press 地域",
+    type: "pr-search",
+    url: "https://news.google.com/rss/search?q=site%3Aatpress.ne.jp%20%28%E8%A6%B3%E5%85%89%20OR%20%E8%87%AA%E6%B2%BB%E4%BD%93%20OR%20%E8%8A%B1%20OR%20%E5%9C%B0%E5%9F%9F%29&hl=ja&gl=JP&ceid=JP:ja"
   },
   {
-    name: "@Press",
-    type: "pr",
-    url: "https://www.atpress.ne.jp/rss"
+    name: "Google News みん経",
+    type: "local-business",
+    url: "https://news.google.com/rss/search?q=site%3Aminkei.net%20%28%E9%96%8B%E5%BA%97%20OR%20%E9%96%89%E5%BA%97%20OR%20%E8%A6%B3%E5%85%89%20OR%20%E8%8A%B1%20OR%20%E5%9C%B0%E5%9F%9F%29&hl=ja&gl=JP&ceid=JP:ja"
   },
   {
     name: "Google News 災害",
@@ -154,6 +154,12 @@ function extractFeedImage(block, baseUrl) {
   return candidates.map((url) => absoluteUrl(url, baseUrl)).find(Boolean) || "";
 }
 
+function safeIsoDate(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date.toISOString();
+}
+
 async function fetchOgImage(url) {
   if (!url || url.includes("news.google.com/")) return "";
   const controller = new AbortController();
@@ -208,7 +214,7 @@ function parseFeed(xml, source) {
         summary,
         url,
         thumbnailUrl: extractFeedImage(block, source.url),
-        publishedAt: publishedAt ? new Date(publishedAt).toISOString() : null
+        publishedAt: safeIsoDate(publishedAt)
       };
     })
     .filter((item) => item.title && item.url);
@@ -237,7 +243,7 @@ async function readSocialSignals() {
       summary: normalizeText(item.summary || ""),
       url: item.url,
       thumbnailUrl: item.thumbnailUrl || item.imageUrl || "",
-      publishedAt: item.publishedAt ? new Date(item.publishedAt).toISOString() : null
+      publishedAt: safeIsoDate(item.publishedAt)
     }))
     .filter((item) => item.title && item.url);
 }
