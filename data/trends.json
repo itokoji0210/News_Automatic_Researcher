@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-05-12T16:05:20.358Z",
+  "generatedAt": "2026-05-13T00:49:54.404Z",
   "sources": [
     {
       "name": "NHK News",
       "type": "major",
       "url": "https://www3.nhk.or.jp/rss/news/cat0.xml",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "Invalid time value"
     },
     {
       "name": "Yahoo!ニュース 地域",
       "type": "local",
       "url": "https://news.yahoo.co.jp/rss/categories/local.xml",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "Invalid time value"
     },
     {
       "name": "PR TIMES",
       "type": "pr",
       "url": "https://prtimes.jp/main/rss",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "404 Not Found"
     },
     {
       "name": "@Press",
       "type": "pr",
       "url": "https://www.atpress.ne.jp/rss",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "404 Not Found"
     },
     {
       "name": "みんなの経済新聞ネットワーク",
       "type": "local-business",
       "url": "https://minkei.net/rss.xml",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "Invalid time value"
     },
     {
       "name": "官公庁 新着",
       "type": "government",
       "url": "https://www.e-gov.go.jp/news/rss.xml",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "404 Not Found"
     },
     {
       "name": "Google News 災害",
       "type": "news-search",
       "url": "https://news.google.com/rss/search?q=%E7%81%BD%E5%AE%B3%20OR%20%E5%BE%A9%E6%97%A7%20OR%20%E6%B0%B4%E4%B8%8D%E8%B6%B3&hl=ja&gl=JP&ceid=JP:ja",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "Invalid time value"
     },
     {
       "name": "Google News 観光・地域",
       "type": "news-search",
       "url": "https://news.google.com/rss/search?q=%E8%A6%B3%E5%85%89%20OR%20%E8%8A%B1%20OR%20%E5%86%8D%E9%96%8B%E7%99%BA%20OR%20%E9%96%89%E5%BA%97&hl=ja&gl=JP&ceid=JP:ja",
       "itemCount": 0,
-      "error": "fetch failed"
+      "error": "Invalid time value"
     },
     {
       "name": "SNS signals",
       "type": "social",
-      "url": "C:\\Users\\1060361\\Documents\\Codex\\2026-05-13\\pr-times-press-sns-scripts-analyze\\data\\social-signals.json",
+      "url": "/home/runner/work/News_Automatic_Researcher/News_Automatic_Researcher/data/social-signals.json",
       "itemCount": 0,
       "error": null
     }
