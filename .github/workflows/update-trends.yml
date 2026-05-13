@@ -9,34 +9,23 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: update-trends-and-pages
+  group: pages
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Sync latest main
-        run: |
-          git fetch origin main
-          git pull --rebase origin main
 
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-
-      - name: Install dependencies
-        run: npm install
 
       - name: Analyze trends
         run: npm run analyze:trends
@@ -50,17 +39,13 @@ jobs:
       - name: Build static Pages files
         run: npm run build:pages
 
-      - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update trend data
-          file_pattern: data/*.json docs/** index.html styles.css app.js package-lock.json
-          commit_author: itokoji0210 <171212899+itokoji0210@users.noreply.github.com>
-
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages-${{ github.run_id }}
           path: docs
 
       - uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}
