@@ -137,6 +137,20 @@ function tagValue(block, tag) {
   return match ? normalizeText(match[1].replace(/<!\\[CDATA\\[|\\]\\]>/g, "")) : "";
 }
 
+function rawTagValue(block, tag) {
+  const match = block.match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)</${tag}>`, "i"));
+  return match
+    ? match[1]
+        .replace(/<!\\[CDATA\\[|\\]\\]>/g, "")
+        .replace(/&amp;/g, "&")
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&quot;/g, "\"")
+        .replace(/&#39;/g, "'")
+        .trim()
+    : "";
+}
+
 function attrValue(block, tagPattern, attr) {
   const tag = block.match(new RegExp(`<${tagPattern}\\b[^>]*>`, "i"))?.[0] || "";
   return tag.match(new RegExp(`${attr}=["']([^"']+)["']`, "i"))?.[1] || "";
@@ -147,8 +161,8 @@ function extractFeedImage(block, baseUrl) {
     attrValue(block, "media:thumbnail", "url"),
     attrValue(block, "media:content", "url"),
     attrValue(block, "enclosure", "url"),
-    tagValue(block, "image"),
-    tagValue(block, "url"),
+    rawTagValue(block, "image"),
+    rawTagValue(block, "url"),
     block.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1]
   ];
   return candidates.map((url) => absoluteUrl(url, baseUrl)).find(Boolean) || "";
@@ -200,13 +214,13 @@ function parseFeed(xml, source) {
 
   return blocks
     .map((block) => {
-      const rawLink = tagValue(block, "link");
+      const rawLink = rawTagValue(block, "link");
       const href = attrValue(block, "link", "href");
       const url = href || rawLink;
       const title = tagValue(block, "title");
       const summary =
         tagValue(block, "description") || tagValue(block, "summary") || tagValue(block, "content");
-      const publishedAt = tagValue(block, "pubDate") || tagValue(block, "updated");
+      const publishedAt = rawTagValue(block, "pubDate") || rawTagValue(block, "updated");
       return {
         source: source.name,
         sourceType: source.type,
