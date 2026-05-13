@@ -9,12 +9,41 @@ import {
 } from "./trend-utils.js";
 
 const DEFAULT_SOURCES = [
-  { name: "NHK News", type: "major", url: "https://www3.nhk.or.jp/rss/news/cat0.xml" },
-  { name: "Yahoo!ニュース 地域", type: "local", url: "https://news.yahoo.co.jp/rss/categories/local.xml" },
-  { name: "PR TIMES", type: "pr", url: "https://prtimes.jp/main/rss" },
-  { name: "@Press", type: "pr", url: "https://www.atpress.ne.jp/rss" },
-  { name: "みんなの経済新聞ネットワーク", type: "local-business", url: "https://minkei.net/rss.xml" },
-  { name: "官公庁 新着", type: "government", url: "https://www.e-gov.go.jp/news/rss.xml" },
+  {
+    name: "Google News 写真向き時事",
+    type: "news-search",
+    url: "https://news.google.com/rss/search?q=%E6%B0%B4%E4%B8%8D%E8%B6%B3%20OR%20%E7%8C%9B%E6%9A%91%20OR%20%E3%82%AF%E3%83%9E%20OR%20%E7%81%BD%E5%AE%B3%20OR%20%E5%BE%A9%E6%97%A7%20OR%20%E5%86%8D%E9%96%8B%E7%99%BA&hl=ja&gl=JP&ceid=JP:ja"
+  },
+  {
+    name: "Google News 花・季節",
+    type: "news-search",
+    url: "https://news.google.com/rss/search?q=%E8%A6%8B%E9%A0%83%20OR%20%E8%8A%B1%20OR%20%E7%94%B0%E6%A4%8D%E3%81%88%20OR%20%E5%88%9D%E7%89%A9%20OR%20%E5%87%BA%E8%8D%B7%20OR%20%E6%B0%B4%E6%8F%9A%E3%81%92&hl=ja&gl=JP&ceid=JP:ja"
+  },
+  {
+    name: "Google News 観光・人出",
+    type: "news-search",
+    url: "https://news.google.com/rss/search?q=%E8%A6%B3%E5%85%89%20OR%20%E3%82%A4%E3%83%B3%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89%20OR%20%E8%A1%8C%E5%88%97%20OR%20%E6%B7%B7%E9%9B%91%20OR%20%E8%A6%B3%E5%85%89%E5%85%AC%E5%AE%B3&hl=ja&gl=JP&ceid=JP:ja"
+  },
+  {
+    name: "Google News 地方現場",
+    type: "news-search",
+    url: "https://news.google.com/rss/search?q=%E5%9C%B0%E6%96%B9%20OR%20%E8%87%AA%E6%B2%BB%E4%BD%93%20OR%20%E5%95%86%E5%BA%97%E8%A1%97%20OR%20%E9%A7%85%E5%89%8D%20OR%20%E6%B8%AF%20OR%20%E7%A9%BA%E3%81%8D%E5%AE%B6&hl=ja&gl=JP&ceid=JP:ja"
+  },
+  {
+    name: "PR TIMES 地域・観光",
+    type: "pr",
+    url: "https://prtimes.jp/main/rss?keywords=%E8%A6%B3%E5%85%89"
+  },
+  {
+    name: "PR TIMES 自治体",
+    type: "pr",
+    url: "https://prtimes.jp/main/rss?keywords=%E8%87%AA%E6%B2%BB%E4%BD%93"
+  },
+  {
+    name: "@Press",
+    type: "pr",
+    url: "https://www.atpress.ne.jp/rss"
+  },
   {
     name: "Google News 災害",
     type: "news-search",
@@ -194,7 +223,7 @@ async function fetchSource(source) {
     const xml = await response.text();
     return { source, items: parseFeed(xml, source), error: null };
   } catch (error) {
-    return { source, items: [], error: error.message };
+    return { source, items: [], error: error.cause?.code || error.message };
   }
 }
 
@@ -321,6 +350,10 @@ export async function analyzeTrends() {
   const sources = getSources();
   const results = await Promise.all(sources.map(fetchSource));
   const socialSignals = await readSocialSignals();
+  for (const result of results) {
+    const status = result.error ? `ERROR ${result.error}` : `${result.items.length} items`;
+    console.log(`[source] ${result.source.name}: ${status}`);
+  }
   const articles = await addMissingThumbnails(
     [...results.flatMap((result) => result.items), ...socialSignals].slice(0, 600)
   );
@@ -395,6 +428,9 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
       console.log(
         `Saved ${result.words.length} trend words and ${result.topics.length} grounded topics to ${TRENDS_PATH}`
       );
+      if (!result.words.length) {
+        console.log("No trend words were extracted. Check [source] lines above for RSS fetch or parse failures.");
+      }
     })
     .catch((error) => {
       console.error(error);
