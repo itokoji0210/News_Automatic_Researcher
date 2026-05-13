@@ -30,8 +30,12 @@ const DEFAULT_SOURCES = [
 const STOP_WORDS = new Set([
   "こと", "これ", "ため", "よう", "さん", "する", "した", "して", "から", "まで",
   "など", "より", "ニュース", "発表", "開催", "開始", "公開", "今回", "日本",
-  "東京", "一覧", "写真", "動画"
+  "東京", "一覧", "写真", "動画", "href", "https", "http", "target", "blank", "nbsp",
+  "font", "color", "google", "news", "rss", "articles", "article", "com", "www",
+  "Yahoo", "NEWS"
 ]);
+
+const ALLOWED_ASCII_WORDS = new Set(["AI", "DX", "SNS", "PR", "WBS", "GX"]);
 
 const REGION_WORDS = [
   "北海道", "青森", "岩手", "宮城", "秋田", "山形", "福島", "茨城", "栃木", "群馬",
@@ -223,7 +227,13 @@ function tokenize(text) {
     normalized.match(/[一-龠ぁ-んァ-ヶー]{2,12}|[A-Za-z][A-Za-z0-9-]{2,}/g) || [];
   const tokens = chunks
     .map((word) => word.trim())
-    .filter((word) => word.length >= 2 && !STOP_WORDS.has(word) && !/^[0-9]+$/.test(word));
+    .filter((word) => {
+      if (word.length < 2 || STOP_WORDS.has(word) || /^[0-9]+$/.test(word)) return false;
+      if (/^[A-Za-z0-9-]+$/.test(word) && !ALLOWED_ASCII_WORDS.has(word.toUpperCase())) {
+        return false;
+      }
+      return true;
+    });
   return [...new Set([...explicit, ...tokens])];
 }
 

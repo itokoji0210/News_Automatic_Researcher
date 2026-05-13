@@ -24,13 +24,31 @@ export async function writeJson(filePath, value) {
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-export function normalizeText(text = "") {
+function decodeHtmlEntities(text = "") {
   return text
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, "\"")
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#([0-9]+);/g, (_, num) => String.fromCodePoint(parseInt(num, 10)));
+}
+
+export function normalizeText(text = "") {
+  const decoded = decodeHtmlEntities(String(text));
+  return decoded
+    .replace(/https?:\/\/\S+/gi, " ")
+    .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[\s\S]*?<\/style>/gi, " ")
     .replace(/<[^>]*>/g, " ")
-    .replace(/&(?:nbsp|amp|lt|gt|quot|#39);/g, " ")
+    .replace(/\b(?:href|https|http|target|blank|nbsp|font|color|style|class|rel|src|alt)\b/gi, " ")
+    .replace(/\b(?:google|news|rss|articles|article|com|www|html|xml|f6f6f6)\b/gi, " ")
     .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (char) =>
       String.fromCharCode(char.charCodeAt(0) - 0xfee0)
     )
+    .replace(/[!"#$%&'()*+,./:;<=>?@[\\\]^_`{|}~]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
